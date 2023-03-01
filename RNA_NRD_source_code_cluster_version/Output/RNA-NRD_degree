@@ -1,0 +1,7 @@
+Cluster_ID	Representative	Redundant_cluster	Degree_list
+4	6V3B_sN1	['6V3B_sN1']	['0']
+10	6HA8_a	['6HA8_a']	['0']
+11	6O8Z_a	['6O8Z_a']	['0']
+12	6O8Z_A	['6O8Z_A']	['0']
+13	6O8Z_B	['6O8Z_B']	['0']
+14	6HA8_x	['6HA8_x']	['0']

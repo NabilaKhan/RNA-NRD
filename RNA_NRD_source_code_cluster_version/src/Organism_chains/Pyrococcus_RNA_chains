@@ -1,0 +1,2 @@
+PDB_ID	Chain_ID	Entity_Polymer_Type	Source_Organism	Chain_Length	Resolution	#_RNA_Entities	Release_Date	Experimental_Method	Macromolecule_Name	Family_name	Num_res_with_coor	Num_base_pairs	Sequence
+3X1L	I	RNA	Pyrococcus_furiosus_COM1	39	2.096	1	2015-05-13	X-RAY_DIFFRACTION	RNA_(32-MER)	other	32	0	AUUGAAAGUUGUAGUAUGCGGUCCUUGCGGCUGAGAGCA

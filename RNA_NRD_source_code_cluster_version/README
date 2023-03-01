@@ -1,0 +1,178 @@
+RNA-NRD: a Non-redundant RNA Structural Dataset for Benchmarking and Functional Analys
+
+
+######################### Install Instructions for Linux Cluster #########################
+RNA-NRD source code is implemented using Python 3.8.10 and can be executed in 64-bit. 
+Linux.
+
+*** Requirements:
+1. python3:
+2. pip3
+*** Locally install Following python packages:
+1. biopython (>=1.79): pip3 install biopython==1.79 --user
+2. matplotlib (>=3.5.0): pip3 install matplotlib==3.5.0 --user
+3. networkx (>=2.6.3): pip3 install networkx==2.6.3 --user
+4. numpy (>=1.22.3): pip3 install numpy==1.22.3 --user
+5. python-dateutil (>=2.8.2): pip3 install python-dateutil==2.8.2 --user
+6. wget (>=3.2): pip3 install wget==3.2 --user
+*** Python packages that should already exist:
+os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, requests
+
+%%% If any of the above mentioed package doesn't exist, then please install using the command 'pip install package-name --user' %%%
+
+
+
+######################### Collect RNA chains from PDB #########################
+***Steps:
+1. Download RNA chains from PDB in csv format. Go to homepage button -> “^[0-9] Nucleic Acid Containing Structures” -> “Tabular Report” -> “Create CustomReport” -> select attributes -> “Run Report”.
+2. Select these 12 attributes: Experimental Method, Release Date, PDB ID, Number of Distinct RNA Entities, Resolution (Å), Sequence, Entity Polymer Type, Polymer Entity Sequence Length, Source Organism, Macromolecule Name, Chain ID (Asym ID), Entry Id (Polymer Entity Identifier).
+3. Convertcsv files to txt file format and merge them. See the example code below and change the file names accordingly:
+		
+		****************************************************************************************
+		csvformat -T rcsb_pdb_custom_report_0001-2500.csv > rcsb_pdb_custom_report_0001-2500.txt
+		sed -i 's/\ /_/g' rcsb_pdb_custom_report_0001-2500.txt
+
+		csvformat -T rcsb_pdb_custom_report_2501-5000.csv > rcsb_pdb_custom_report_2501-5000.txt
+		sed -i 's/\ /_/g' rcsb_pdb_custom_report_2501-5000.txt
+
+		csvformat -T rcsb_pdb_custom_report_5001-5329.csv > rcsb_pdb_custom_report_5001-5329.txt
+		sed -i 's/\ /_/g' rcsb_pdb_custom_report_5001-5329.txt
+
+		cat *.txt > Merged_data.txt
+		****************************************************************************************
+
+***Note: 'Merged_data.txt' already exists inside folder 'Data' which contains all the RNA chains collected from PDB on 03/17/21.
+
+
+
+######################### Collect RNA chain family information from Rfam website #########################
+*** Requirement: Install chromedrive and update the chromedrive path in the code Rfam_parser.py on line ?
+*** Instructions: Run the code inside the folder 'Rfam_parser.py'. If chromedriver not found, then update the 'DRIVER_PATH' in the code.
+*** Run command: python3 Rfam_parser.py
+*** Output: generates file 'PDB_family_name.txt' contaiing RFam family information insdie the folder 'Rfam_family'. 
+*** Note: 'PDB_family_name.txt' already exists inside folder 'Rfam_family' which contains all the Rfam family information collected from Rfam website on 01/23/23.
+
+
+
+######################### Run Instructions #########################
+
+
+##### Preprocess RNA chians #####
+***Run command: python3 Run1_Preprocess.py [-i Data/Data.txt] [-fi 100]
+***Help command: python3 Run1_Preprocess.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -i [I]      Input file location containing RNA chains. Default:
+              'Data/Data.txt'.
+  -fi [FI]    Number of RNA chains per file for calculating sequence
+              identity. It's used to divide total number of RNA chains in
+              an organism into smaller sections to make parallel
+              processing faster while calculating sequence identity.
+              Default: 100.
+***Output: generates output file 'RNA_chain_list' containing list of selected RNA chains, creates necessary folders and files inside folders 'Organism_list', 'Organism_group', 'Organism_identity_score'.
+              
+
+##### Perform all pairwise sequence alignment within each organism #####
+***Run command: python3 Run2_Identity_Score.py [-fi 100]
+***Help command: python3 Run2_Identity_Score.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -fi [FI]    Number of RNA chains per file for calculating sequence identity.
+              It's used to divide total number of RNA chains in an organism
+              into smaller sections to make parallel processing faster while
+              calculating sequence identity. Default: 100.
+***Output: generates output files inside the folder 'Organism_identity_score/identity_score_list_temp' containing pairwise sequece alignments of RNA chains.
+              
+              
+##### Perform preprocessing to align RNA chain 3D strctures within each group #####
+***Run command: python3 Run3_RMSD_Preprocess.py [-t 80] [-fr 50]
+***Help command: python3 Run3_RMSD_Preprocess.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -t [T]      Provide sequence identity threshold. Default: 80 (80%).
+  -fr [FR]    Number of RNA chains per file for calculating RMSD. It's used to divide total number of RNA chains in an organism into smaller sections to make parallel processing
+              faster while calculating RMSD. Default: 50.
+***Output: generate necessary folders and files insde the folder 'Organism_group', 'Organism_identity_score', 'Organism_RMSD' for further calculation. Also performs preprocessing using tool 'STAR3D'.
+
+
+##### Perform RNA 3D strcture alignment within RNA chains in each group #####
+***Run command: python3 Run4_RMSD_Align.py [-fr 50]
+***Help command: python3 Run4_RMSD_Align.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -fr [FR]    Number of RNA chains per file for calculating RMSD. It's used to divide total number of RNA chains in an organism into smaller sections to make parallel processing
+              faster while calculating RMSD. Default: 50.
+***Output: generates output files inside folder 'Organism_RMSD/rmsd_cluster_tmp' contains the RNA 3D strcture alignment results.
+
+
+##### Generate RNA-NRD dataset #####
+***Run command: python3 Run5_NR_Dataset.py [-o 'Output/Nonredundat_datalist'] [-r 4] [-a 80] [-fr 50]
+***Help command: python3 Run5_NR_Dataset.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -o [O]      Output file name and location.
+  -r [R]      Provide RMSD threshold. Default: 4.
+  -a [A]      Provide alignment ratio percent threshold. Default: 80.
+  -fr [FR]    Number of RNA chains per file for calculating RMSD. It's used to divide total number of RNA chains in an organism into smaller sections to make parallel processing 
+              faster while calculating RMSD. Default: 50.
+***Output: Generates final nonredundant detaset output file inside user defined location (Default: 'Output/RNA-NRD_dataset')
+
+
+##### Compare sequence of Representatives #####
+***Run command: python3 Run6_RP_seq_identity.py [-i 'RNA-NRD_dataset'] [-s 80] [-r 4] [-a 80]
+***Help command: python3 Run6_RP_seq_identity.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -s [S]      Provide sequence identity threshold. Default: 80.
+  -r [R]      Provide RMSD threshold. Default: 4.
+  -a [A]      Provide alignment ratio percent threshold. Default: 80.
+  -i [I]      RNA-NRD dataset name and location. Default: 'RNA-NRD_dataset'.
+***Output: Generates seqeunce comparsion result of representatives within folder 'Organism_merge'
+
+
+
+##### Compare 3D structure of Representatives #####
+***Run command: python3 Run7_RP_struct.py [-i 'RNA-NRD_dataset'] [-r 4] [-a 80]
+***Help command: python3 Run7_RP_struct.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -r [R]      Provide RMSD threshold. Default: 4.
+  -a [A]      Provide alignment ratio percent threshold. Default: 80.
+  -i [I]      RNA-NRD dataset name and location. Default: 'RNA-NRD_dataset'.
+***Output: Generates structure comparsion result of representatives within folder 'Organism_merge'
+
+
+
+##### Merge clusters having similar representatives and compare the cluster members #####  
+***Run command: python3 Run8_Mem_struct.py [-i 'RNA-NRD_dataset'] [-r 4] [-a 80]
+***Help command: python3 Run8_Mem_struct.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -r [R]      Provide RMSD threshold. Default: 4.
+  -a [A]      Provide alignment ratio percent threshold. Default: 80.
+  -i [I]      RNA-NRD dataset name and location. Default: 'RNA-NRD_dataset'.
+***Output: Generates cluster member comparsion result within folder 'Organism_merge'
+
+
+##### Generate RNA-NRD_without_Organism_Division dataset #####
+ ***Run command: python3 Run6_RP_seq_identity.py [-i 'RNA-NRD_dataset'] [-s 80] [-r 4] [-a 80]
+***Help command: python3 Run6_RP_seq_identity.py -h
+***Optional arguments:
+  -h, --help  show this help message and exit
+  -o [O]      Output file name and location. Default: 'RNA-NRD_without_Organism_Division_dataset'.
+***Output: Generates RNA-NRD-without-Organism-Division dataset in user defined location (Default: 'Output/RNA-NRD_without_Organism_Division_dataset'). 
+
+                           
+######################### Important Notes #########################
+
+*** Please make sure to run a code after all the previous codes have completed running (along with the sbatch files running on cluster)
+*** Please make sure the 'Number of RNA chains per file for calculating sequence identity [-fi]' is same for the codes 'Run1_Preprocess.py', 'Run2_Identity_Score.py' [Default: 100]
+*** Please make sure the 'Number of RNA chains per file for calculating RMSD [-fr]' is same for the codes 'Run3_RMSD_Preprocess.py', 'Run4_RMSD_Align.py', 'Run5_NR_Dataset.py' [Default: 50]
+*** Please make sure the file 'All_Organism_list' is inside the folder 'Organism_list'. It contains list of all organisms currently present in PDB. [[In case the input file has any new organisms, then the new organism will be added in the file 'All_Organism_list'. TODO]]
+
+
+
+######################### Terms #########################
+Where appropriate, please cite the following RNA-NRD paper:
+Nabila et al. "RNA-NRD: a Non-redundant RNA Structural Dataset for Benchmarking and Functional Analys."
+

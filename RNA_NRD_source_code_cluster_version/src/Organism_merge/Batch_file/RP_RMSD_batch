@@ -1,0 +1,7 @@
+#!/bin/bash
+#SBATCH --output=RP_RMSD_batch_file_output
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+
+
+python3 ../../Merge_Organism_RMSD.py 4.0 80.0 RNA-NRD_dataset 

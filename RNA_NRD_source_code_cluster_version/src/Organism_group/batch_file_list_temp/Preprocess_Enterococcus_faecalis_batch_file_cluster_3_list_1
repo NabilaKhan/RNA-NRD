@@ -1,0 +1,7 @@
+#!/bin/bash
+#SBATCH --output=Preprocess_Enterococcus_faecalis_batch_file_output_3_list_1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+
+
+python3 ../../Generate_RMSD_Preprocess_from_Connected_Graph_Parallel_Batch_file.py Enterococcus_faecalis Enterococcus_faecalis_cluster_3 Enterococcus_faecalis_cluster_3_list_1 50 1 

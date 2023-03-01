@@ -1,0 +1,808 @@
+data_2Z9Q
+# 
+_entry.id   2Z9Q 
+# 
+_audit_conform.dict_name       mmcif_pdbx.dic 
+_audit_conform.dict_version    5.318 
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
+# 
+loop_
+_database_2.database_id 
+_database_2.database_code 
+PDB   2Z9Q         
+RCSB  RCSB027698   
+WWPDB D_1000027698 
+# 
+loop_
+_pdbx_database_related.db_name 
+_pdbx_database_related.db_id 
+_pdbx_database_related.details 
+_pdbx_database_related.content_type 
+PDB  1TTT     'coordinates for starting the MD simulation'                                         unspecified            
+PDB  1PN6     'coordinates of fitting structure of EF-G as a reference position for the P/E-tRNA.' unspecified            
+EMDB EMD-1363 .                                                                                    'associated EM volume' 
+# 
+_pdbx_database_status.status_code                     REL 
+_pdbx_database_status.entry_id                        2Z9Q 
+_pdbx_database_status.recvd_initial_deposition_date   2007-09-25 
+_pdbx_database_status.deposit_site                    PDBJ 
+_pdbx_database_status.process_site                    PDBJ 
+_pdbx_database_status.status_code_sf                  ? 
+_pdbx_database_status.status_code_mr                  ? 
+_pdbx_database_status.SG_entry                        ? 
+_pdbx_database_status.pdb_format_compatible           Y 
+_pdbx_database_status.status_code_cs                  ? 
+_pdbx_database_status.methods_development_category    ? 
+# 
+loop_
+_audit_author.name 
+_audit_author.pdbx_ordinal 
+'Frank, J.' 1 
+'Li, W.'    2 
+# 
+loop_
+_citation.id 
+_citation.title 
+_citation.journal_abbrev 
+_citation.journal_volume 
+_citation.page_first 
+_citation.page_last 
+_citation.year 
+_citation.journal_id_ASTM 
+_citation.country 
+_citation.journal_id_ISSN 
+_citation.journal_id_CSD 
+_citation.book_publisher 
+_citation.pdbx_database_id_PubMed 
+_citation.pdbx_database_id_DOI 
+primary 'Transfer RNA in the hybrid P/E state'       'To be Published'       ?   ?   ?   ?    ?      ?  ?         0353 ? ?        
+?                               
+1       'Locking and unlocking of ribosomal motions' 'Cell(Cambridge,Mass.)' 114 123 134 2003 CELLB5 US 0092-8674 0998 ? 12859903 
+'10.1016/S0092-8674(03)00476-8' 
+# 
+loop_
+_citation_author.citation_id 
+_citation_author.name 
+_citation_author.ordinal 
+_citation_author.identifier_ORCID 
+primary 'Li, W.'        1 ? 
+primary 'Frank, J.'     2 ? 
+1       'Valle, M.'     3 ? 
+1       'Zavialov, A.'  4 ? 
+1       'Sengupta, J.'  5 ? 
+1       'Rawat, U.'     6 ? 
+1       'Ehrenberg, M.' 7 ? 
+1       'Frank, J.'     8 ? 
+# 
+_cell.entry_id           2Z9Q 
+_cell.length_a           1.000 
+_cell.length_b           1.000 
+_cell.length_c           1.000 
+_cell.angle_alpha        90.00 
+_cell.angle_beta         90.00 
+_cell.angle_gamma        90.00 
+_cell.Z_PDB              1 
+_cell.pdbx_unique_axis   ? 
+_cell.length_a_esd       ? 
+_cell.length_b_esd       ? 
+_cell.length_c_esd       ? 
+_cell.angle_alpha_esd    ? 
+_cell.angle_beta_esd     ? 
+_cell.angle_gamma_esd    ? 
+# 
+_symmetry.entry_id                         2Z9Q 
+_symmetry.space_group_name_H-M             'P 1' 
+_symmetry.pdbx_full_space_group_name_H-M   ? 
+_symmetry.cell_setting                     ? 
+_symmetry.Int_Tables_number                1 
+# 
+_entity.id                         1 
+_entity.type                       polymer 
+_entity.src_method                 nat 
+_entity.pdbx_description           tRNA 
+_entity.formula_weight             24544.916 
+_entity.pdbx_number_of_molecules   1 
+_entity.pdbx_ec                    ? 
+_entity.pdbx_mutation              ? 
+_entity.pdbx_fragment              ? 
+_entity.details                    ? 
+# 
+_entity_poly.entity_id                      1 
+_entity_poly.type                           polyribonucleotide 
+_entity_poly.nstd_linkage                   no 
+_entity_poly.nstd_monomer                   yes 
+_entity_poly.pdbx_seq_one_letter_code       
+;CGGAUUUA(2MG)CUCAG(H2U)(H2U)GGGAGAGC(M2G)CCAGA(OMC)U(OMG)AA(YYG)A(PSU)(5MC)UGGAG
+(7MG)UC(5MC)UGUG(5MU)(PSU)CG(1MA)UCCACAGAAUUCGCACCA
+;
+_entity_poly.pdbx_seq_one_letter_code_can   CGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA 
+_entity_poly.pdbx_strand_id                 A 
+_entity_poly.pdbx_target_identifier         ? 
+# 
+loop_
+_entity_poly_seq.entity_id 
+_entity_poly_seq.num 
+_entity_poly_seq.mon_id 
+_entity_poly_seq.hetero 
+1 1  C   n 
+1 2  G   n 
+1 3  G   n 
+1 4  A   n 
+1 5  U   n 
+1 6  U   n 
+1 7  U   n 
+1 8  A   n 
+1 9  2MG n 
+1 10 C   n 
+1 11 U   n 
+1 12 C   n 
+1 13 A   n 
+1 14 G   n 
+1 15 H2U n 
+1 16 H2U n 
+1 17 G   n 
+1 18 G   n 
+1 19 G   n 
+1 20 A   n 
+1 21 G   n 
+1 22 A   n 
+1 23 G   n 
+1 24 C   n 
+1 25 M2G n 
+1 26 C   n 
+1 27 C   n 
+1 28 A   n 
+1 29 G   n 
+1 30 A   n 
+1 31 OMC n 
+1 32 U   n 
+1 33 OMG n 
+1 34 A   n 
+1 35 A   n 
+1 36 YYG n 
+1 37 A   n 
+1 38 PSU n 
+1 39 5MC n 
+1 40 U   n 
+1 41 G   n 
+1 42 G   n 
+1 43 A   n 
+1 44 G   n 
+1 45 7MG n 
+1 46 U   n 
+1 47 C   n 
+1 48 5MC n 
+1 49 U   n 
+1 50 G   n 
+1 51 U   n 
+1 52 G   n 
+1 53 5MU n 
+1 54 PSU n 
+1 55 C   n 
+1 56 G   n 
+1 57 1MA n 
+1 58 U   n 
+1 59 C   n 
+1 60 C   n 
+1 61 A   n 
+1 62 C   n 
+1 63 A   n 
+1 64 G   n 
+1 65 A   n 
+1 66 A   n 
+1 67 U   n 
+1 68 U   n 
+1 69 C   n 
+1 70 G   n 
+1 71 C   n 
+1 72 A   n 
+1 73 C   n 
+1 74 C   n 
+1 75 A   n 
+# 
+_entity_src_nat.entity_id                  1 
+_entity_src_nat.pdbx_src_id                1 
+_entity_src_nat.pdbx_alt_source_flag       sample 
+_entity_src_nat.pdbx_beg_seq_num           ? 
+_entity_src_nat.pdbx_end_seq_num           ? 
+_entity_src_nat.common_name                ? 
+_entity_src_nat.pdbx_organism_scientific   'Thermus aquaticus' 
+_entity_src_nat.pdbx_ncbi_taxonomy_id      271 
+_entity_src_nat.genus                      Thermus 
+_entity_src_nat.species                    ? 
+_entity_src_nat.strain                     ? 
+_entity_src_nat.tissue                     ? 
+_entity_src_nat.tissue_fraction            ? 
+_entity_src_nat.pdbx_secretion             ? 
+_entity_src_nat.pdbx_fragment              ? 
+_entity_src_nat.pdbx_variant               ? 
+_entity_src_nat.pdbx_cell_line             ? 
+_entity_src_nat.pdbx_atcc                  ? 
+_entity_src_nat.pdbx_cellular_location     ? 
+_entity_src_nat.pdbx_organ                 ? 
+_entity_src_nat.pdbx_organelle             ? 
+_entity_src_nat.pdbx_cell                  ? 
+_entity_src_nat.pdbx_plasmid_name          ? 
+_entity_src_nat.pdbx_plasmid_details       ? 
+_entity_src_nat.details                    ? 
+# 
+_struct_ref.id                         1 
+_struct_ref.db_name                    PDB 
+_struct_ref.db_code                    2Z9Q 
+_struct_ref.entity_id                  1 
+_struct_ref.pdbx_seq_one_letter_code   
+;CGGAUUUA(2MG)CUCAG(H2U)(H2U)GGGAGAGC(M2G)CCAGA(OMC)U(OMG)AA(YYG)A(PSU)(5MC)UGGAG
+(7MG)UC(5MC)UGUG(5MU)(PSU)CG(1MA)UCCACAGAAUUCGCACCA
+;
+_struct_ref.pdbx_align_begin           1 
+_struct_ref.pdbx_db_accession          2Z9Q 
+_struct_ref.pdbx_db_isoform            ? 
+# 
+_struct_ref_seq.align_id                      1 
+_struct_ref_seq.ref_id                        1 
+_struct_ref_seq.pdbx_PDB_id_code              2Z9Q 
+_struct_ref_seq.pdbx_strand_id                A 
+_struct_ref_seq.seq_align_beg                 1 
+_struct_ref_seq.pdbx_seq_align_beg_ins_code   ? 
+_struct_ref_seq.seq_align_end                 75 
+_struct_ref_seq.pdbx_seq_align_end_ins_code   ? 
+_struct_ref_seq.pdbx_db_accession             2Z9Q 
+_struct_ref_seq.db_align_beg                  1 
+_struct_ref_seq.pdbx_db_align_beg_ins_code    ? 
+_struct_ref_seq.db_align_end                  75 
+_struct_ref_seq.pdbx_db_align_end_ins_code    ? 
+_struct_ref_seq.pdbx_auth_seq_align_beg       1 
+_struct_ref_seq.pdbx_auth_seq_align_end       75 
+# 
+loop_
+_chem_comp.id 
+_chem_comp.type 
+_chem_comp.mon_nstd_flag 
+_chem_comp.name 
+_chem_comp.pdbx_synonyms 
+_chem_comp.formula 
+_chem_comp.formula_weight 
+1MA 'RNA linking' n "6-HYDRO-1-METHYLADENOSINE-5'-MONOPHOSPHATE" ?                                 'C11 H16 N5 O7 P'  361.248 
+2MG 'RNA linking' n "2N-METHYLGUANOSINE-5'-MONOPHOSPHATE" ?                                 'C11 H16 N5 O8 P'  377.247 
+5MC 'RNA linking' n "5-METHYLCYTIDINE-5'-MONOPHOSPHATE" ?                                 'C10 H16 N3 O8 P'  337.223 
+5MU 'RNA linking' n 
+;5-METHYLURIDINE 5'-MONOPHOSPHATE
+;
+?                                 'C10 H15 N2 O9 P'  338.208 
+7MG 'RNA linking' n "7N-METHYL-8-HYDROGUANOSINE-5'-MONOPHOSPHATE" ?                                 'C11 H18 N5 O8 P'  379.263 
+A   'RNA linking' y "ADENOSINE-5'-MONOPHOSPHATE" ?                                 'C10 H14 N5 O7 P'  347.221 
+C   'RNA linking' y "CYTIDINE-5'-MONOPHOSPHATE" ?                                 'C9 H14 N3 O8 P'   323.197 
+G   'RNA linking' y "GUANOSINE-5'-MONOPHOSPHATE" ?                                 'C10 H14 N5 O8 P'  363.221 
+H2U 'RNA linking' n "5,6-DIHYDROURIDINE-5'-MONOPHOSPHATE" ?                                 'C9 H15 N2 O9 P'   326.197 
+M2G 'RNA linking' n "N2-DIMETHYLGUANOSINE-5'-MONOPHOSPHATE" ?                                 'C12 H18 N5 O8 P'  391.274 
+OMC 'RNA linking' n "O2'-METHYLYCYTIDINE-5'-MONOPHOSPHATE" ?                                 'C10 H16 N3 O8 P'  337.223 
+OMG 'RNA linking' n "O2'-METHYLGUANOSINE-5'-MONOPHOSPHATE" ?                                 'C11 H16 N5 O8 P'  377.247 
+PSU 'RNA linking' n "PSEUDOURIDINE-5'-MONOPHOSPHATE" ?                                 'C9 H13 N2 O9 P'   324.181 
+U   'RNA linking' y "URIDINE-5'-MONOPHOSPHATE" ?                                 'C9 H13 N2 O9 P'   324.181 
+YYG 'RNA linking' n 
+'4-(3-[5-O-PHOSPHONORIBOFURANOSYL]-4,6-DIMETHYL-8-OXO-4,8-DIHYDRO-3H-1,3,4,5,7A-PENTAAZA-S-INDACEN-YLAMINO-BUTYRIC ACID METHYL ESTER' 
+;MODIFIED GUANOSINE-5'-PHOSPHATE
+;
+'C21 H29 N6 O12 P' 588.462 
+# 
+_exptl.entry_id          2Z9Q 
+_exptl.method            'ELECTRON MICROSCOPY' 
+_exptl.crystals_number   ? 
+# 
+_exptl_crystal.id                    1 
+_exptl_crystal.density_meas          ? 
+_exptl_crystal.density_Matthews      ? 
+_exptl_crystal.density_percent_sol   ? 
+_exptl_crystal.description           ? 
+# 
+_diffrn.id                     1 
+_diffrn.ambient_temp           ? 
+_diffrn.ambient_temp_details   ? 
+_diffrn.crystal_id             1 
+# 
+_diffrn_radiation.diffrn_id                        1 
+_diffrn_radiation.wavelength_id                    1 
+_diffrn_radiation.pdbx_monochromatic_or_laue_m_l   M 
+_diffrn_radiation.monochromator                    ? 
+_diffrn_radiation.pdbx_diffrn_protocol             'SINGLE WAVELENGTH' 
+_diffrn_radiation.pdbx_scattering_type             x-ray 
+# 
+_diffrn_radiation_wavelength.id           1 
+_diffrn_radiation_wavelength.wavelength   . 
+_diffrn_radiation_wavelength.wt           1.0 
+# 
+_refine_hist.pdbx_refine_id                   'ELECTRON MICROSCOPY' 
+_refine_hist.cycle_id                         LAST 
+_refine_hist.pdbx_number_atoms_protein        0 
+_refine_hist.pdbx_number_atoms_nucleic_acid   75 
+_refine_hist.pdbx_number_atoms_ligand         0 
+_refine_hist.number_atoms_solvent             0 
+_refine_hist.number_atoms_total               75 
+_refine_hist.d_res_high                       . 
+_refine_hist.d_res_low                        . 
+# 
+_struct.entry_id                  2Z9Q 
+_struct.title                     'Transfer RNA in the hybrid P/E state' 
+_struct.pdbx_descriptor           75-MER 
+_struct.pdbx_model_details        ? 
+_struct.pdbx_CASP_flag            ? 
+_struct.pdbx_model_type_details   ? 
+# 
+_struct_keywords.entry_id        2Z9Q 
+_struct_keywords.pdbx_keywords   RNA 
+_struct_keywords.text            'distorted anticodon-stem-loop, twisted CCA arm, RNA' 
+# 
+_struct_asym.id                            A 
+_struct_asym.pdbx_blank_PDB_chainid_flag   N 
+_struct_asym.pdbx_modified                 N 
+_struct_asym.entity_id                     1 
+_struct_asym.details                       ? 
+# 
+_struct_biol.id        1 
+_struct_biol.details   ? 
+# 
+_database_PDB_matrix.entry_id          2Z9Q 
+_database_PDB_matrix.origx[1][1]       1.000000 
+_database_PDB_matrix.origx[1][2]       0.000000 
+_database_PDB_matrix.origx[1][3]       0.000000 
+_database_PDB_matrix.origx[2][1]       0.000000 
+_database_PDB_matrix.origx[2][2]       1.000000 
+_database_PDB_matrix.origx[2][3]       0.000000 
+_database_PDB_matrix.origx[3][1]       0.000000 
+_database_PDB_matrix.origx[3][2]       0.000000 
+_database_PDB_matrix.origx[3][3]       1.000000 
+_database_PDB_matrix.origx_vector[1]   0.00000 
+_database_PDB_matrix.origx_vector[2]   0.00000 
+_database_PDB_matrix.origx_vector[3]   0.00000 
+# 
+_atom_sites.entry_id                    2Z9Q 
+_atom_sites.fract_transf_matrix[1][1]   1.000000 
+_atom_sites.fract_transf_matrix[1][2]   0.000000 
+_atom_sites.fract_transf_matrix[1][3]   0.000000 
+_atom_sites.fract_transf_matrix[2][1]   0.000000 
+_atom_sites.fract_transf_matrix[2][2]   1.000000 
+_atom_sites.fract_transf_matrix[2][3]   0.000000 
+_atom_sites.fract_transf_matrix[3][1]   0.000000 
+_atom_sites.fract_transf_matrix[3][2]   0.000000 
+_atom_sites.fract_transf_matrix[3][3]   1.000000 
+_atom_sites.fract_transf_vector[1]      0.00000 
+_atom_sites.fract_transf_vector[2]      0.00000 
+_atom_sites.fract_transf_vector[3]      0.00000 
+# 
+_atom_type.symbol   P 
+# 
+loop_
+_atom_site.group_PDB 
+_atom_site.id 
+_atom_site.type_symbol 
+_atom_site.label_atom_id 
+_atom_site.label_alt_id 
+_atom_site.label_comp_id 
+_atom_site.label_asym_id 
+_atom_site.label_entity_id 
+_atom_site.label_seq_id 
+_atom_site.pdbx_PDB_ins_code 
+_atom_site.Cartn_x 
+_atom_site.Cartn_y 
+_atom_site.Cartn_z 
+_atom_site.occupancy 
+_atom_site.B_iso_or_equiv 
+_atom_site.pdbx_formal_charge 
+_atom_site.auth_seq_id 
+_atom_site.auth_comp_id 
+_atom_site.auth_asym_id 
+_atom_site.auth_atom_id 
+_atom_site.pdbx_PDB_model_num 
+ATOM   1  P P . C   A 1 1  ? -14.930 -53.123 25.540 1.00 10.00 ? 1  C   A P 1 
+ATOM   2  P P . G   A 1 2  ? -19.319 -50.341 29.207 1.00 10.00 ? 2  G   A P 1 
+ATOM   3  P P . G   A 1 3  ? -24.194 -45.226 30.319 1.00 10.00 ? 3  G   A P 1 
+ATOM   4  P P . A   A 1 4  ? -27.637 -40.442 30.702 1.00 10.00 ? 4  A   A P 1 
+ATOM   5  P P . U   A 1 5  ? -31.420 -36.117 28.621 1.00 10.00 ? 5  U   A P 1 
+ATOM   6  P P . U   A 1 6  ? -35.287 -35.045 24.391 1.00 10.00 ? 6  U   A P 1 
+ATOM   7  P P . U   A 1 7  ? -38.095 -33.869 18.380 1.00 10.00 ? 7  U   A P 1 
+ATOM   8  P P . A   A 1 8  ? -43.421 -32.141 17.878 1.00 10.00 ? 8  A   A P 1 
+HETATM 9  P P . 2MG A 1 9  ? -46.229 -30.855 12.830 1.00 10.00 ? 9  2MG A P 1 
+ATOM   10 P P . C   A 1 10 ? -40.050 -28.350 11.818 1.00 10.00 ? 10 C   A P 1 
+ATOM   11 P P . U   A 1 11 ? -36.941 -25.027 16.534 1.00 10.00 ? 11 U   A P 1 
+ATOM   12 P P . C   A 1 12 ? -35.673 -23.240 21.825 1.00 10.00 ? 12 C   A P 1 
+ATOM   13 P P . A   A 1 13 ? -37.970 -26.575 27.583 1.00 10.00 ? 13 A   A P 1 
+ATOM   14 P P . G   A 1 14 ? -40.063 -27.830 32.245 1.00 10.00 ? 14 G   A P 1 
+HETATM 15 P P . H2U A 1 15 ? -40.464 -33.744 34.043 1.00 10.00 ? 15 H2U A P 1 
+HETATM 16 P P . H2U A 1 16 ? -40.488 -39.811 35.485 1.00 10.00 ? 16 H2U A P 1 
+ATOM   17 P P . G   A 1 17 ? -45.751 -44.639 36.005 1.00 10.00 ? 17 G   A P 1 
+ATOM   18 P P . G   A 1 18 ? -50.821 -43.712 33.795 1.00 10.00 ? 18 G   A P 1 
+ATOM   19 P P . G   A 1 19 ? -56.236 -41.471 30.677 1.00 10.00 ? 19 G   A P 1 
+ATOM   20 P P . A   A 1 20 ? -54.385 -38.683 26.557 1.00 10.00 ? 20 A   A P 1 
+ATOM   21 P P . G   A 1 21 ? -54.105 -32.759 26.449 1.00 10.00 ? 21 G   A P 1 
+ATOM   22 P P . A   A 1 22 ? -53.470 -26.925 27.564 1.00 10.00 ? 22 A   A P 1 
+ATOM   23 P P . G   A 1 23 ? -51.760 -20.204 25.213 1.00 10.00 ? 23 G   A P 1 
+ATOM   24 P P . C   A 1 24 ? -48.590 -15.284 21.299 1.00 10.00 ? 24 C   A P 1 
+HETATM 25 P P . M2G A 1 25 ? -47.419 -14.164 15.590 1.00 10.00 ? 25 M2G A P 1 
+ATOM   26 P P . C   A 1 26 ? -48.696 -15.537 9.963  1.00 10.00 ? 26 C   A P 1 
+ATOM   27 P P . C   A 1 27 ? -52.726 -16.621 6.762  1.00 10.00 ? 27 C   A P 1 
+ATOM   28 P P . A   A 1 28 ? -58.394 -16.393 5.398  1.00 10.00 ? 28 A   A P 1 
+ATOM   29 P P . G   A 1 29 ? -63.860 -14.237 7.157  1.00 10.00 ? 29 G   A P 1 
+ATOM   30 P P . A   A 1 30 ? -67.473 -10.822 10.680 1.00 10.00 ? 30 A   A P 1 
+HETATM 31 P P . OMC A 1 31 ? -69.254 -7.393  15.934 1.00 10.00 ? 31 OMC A P 1 
+ATOM   32 P P . U   A 1 32 ? -66.784 -2.724  18.589 1.00 10.00 ? 32 U   A P 1 
+HETATM 33 P P . OMG A 1 33 ? -65.655 2.329   16.532 1.00 10.00 ? 33 OMG A P 1 
+ATOM   34 P P . A   A 1 34 ? -63.503 0.509   12.001 1.00 10.00 ? 34 A   A P 1 
+ATOM   35 P P . A   A 1 35 ? -58.320 -2.911  10.626 1.00 10.00 ? 35 A   A P 1 
+HETATM 36 P P . YYG A 1 36 ? -53.522 -5.830  13.079 1.00 10.00 ? 36 YYG A P 1 
+ATOM   37 P P . A   A 1 37 ? -50.595 -7.374  18.299 1.00 10.00 ? 37 A   A P 1 
+HETATM 38 P P . PSU A 1 38 ? -52.660 -9.922  23.441 1.00 10.00 ? 38 PSU A P 1 
+HETATM 39 P P . 5MC A 1 39 ? -57.137 -14.463 24.748 1.00 10.00 ? 39 5MC A P 1 
+ATOM   40 P P . U   A 1 40 ? -62.174 -18.626 24.198 1.00 10.00 ? 40 U   A P 1 
+ATOM   41 P P . G   A 1 41 ? -64.634 -22.295 20.929 1.00 10.00 ? 41 G   A P 1 
+ATOM   42 P P . G   A 1 42 ? -63.840 -26.157 16.363 1.00 10.00 ? 42 G   A P 1 
+ATOM   43 P P . A   A 1 43 ? -61.886 -29.153 12.431 1.00 10.00 ? 43 A   A P 1 
+ATOM   44 P P . G   A 1 44 ? -56.424 -31.686 12.493 1.00 10.00 ? 44 G   A P 1 
+HETATM 45 P P . 7MG A 1 45 ? -51.298 -33.556 12.124 1.00 10.00 ? 45 7MG A P 1 
+ATOM   46 P P . U   A 1 46 ? -49.177 -38.400 13.609 1.00 10.00 ? 46 U   A P 1 
+ATOM   47 P P . C   A 1 47 ? -46.352 -41.484 19.444 1.00 10.00 ? 47 C   A P 1 
+HETATM 48 P P . 5MC A 1 48 ? -40.293 -39.224 20.698 1.00 10.00 ? 48 5MC A P 1 
+ATOM   49 P P . U   A 1 49 ? -41.961 -42.797 15.493 1.00 10.00 ? 49 U   A P 1 
+ATOM   50 P P . G   A 1 50 ? -42.120 -47.777 12.947 1.00 10.00 ? 50 G   A P 1 
+ATOM   51 P P . U   A 1 51 ? -43.427 -53.100 13.162 1.00 10.00 ? 51 U   A P 1 
+ATOM   52 P P . G   A 1 52 ? -45.080 -57.913 17.112 1.00 10.00 ? 52 G   A P 1 
+HETATM 53 P P . 5MU A 1 53 ? -45.931 -60.347 23.701 1.00 10.00 ? 53 5MU A P 1 
+HETATM 54 P P . PSU A 1 54 ? -47.889 -60.481 28.748 1.00 10.00 ? 54 PSU A P 1 
+ATOM   55 P P . C   A 1 55 ? -52.694 -59.383 31.692 1.00 10.00 ? 55 C   A P 1 
+ATOM   56 P P . G   A 1 56 ? -54.393 -56.212 27.295 1.00 10.00 ? 56 G   A P 1 
+HETATM 57 P P . 1MA A 1 57 ? -52.381 -50.885 25.266 1.00 10.00 ? 57 1MA A P 1 
+ATOM   58 P P . U   A 1 58 ? -49.697 -44.986 24.395 1.00 10.00 ? 58 U   A P 1 
+ATOM   59 P P . C   A 1 59 ? -44.254 -46.142 24.910 1.00 10.00 ? 59 C   A P 1 
+ATOM   60 P P . C   A 1 60 ? -39.896 -45.466 30.136 1.00 10.00 ? 60 C   A P 1 
+ATOM   61 P P . A   A 1 61 ? -37.053 -50.103 30.057 1.00 10.00 ? 61 A   A P 1 
+ATOM   62 P P . C   A 1 62 ? -33.584 -54.299 27.868 1.00 10.00 ? 62 C   A P 1 
+ATOM   63 P P . A   A 1 63 ? -30.363 -55.942 23.445 1.00 10.00 ? 63 A   A P 1 
+ATOM   64 P P . G   A 1 64 ? -28.415 -52.859 18.219 1.00 10.00 ? 64 G   A P 1 
+ATOM   65 P P . A   A 1 65 ? -27.745 -48.674 13.367 1.00 10.00 ? 65 A   A P 1 
+ATOM   66 P P . A   A 1 66 ? -27.530 -43.841 10.361 1.00 10.00 ? 66 A   A P 1 
+ATOM   67 P P . U   A 1 67 ? -25.273 -38.405 12.757 1.00 10.00 ? 67 U   A P 1 
+ATOM   68 P P . U   A 1 68 ? -23.126 -33.790 15.369 1.00 10.00 ? 68 U   A P 1 
+ATOM   69 P P . C   A 1 69 ? -20.122 -32.125 20.123 1.00 10.00 ? 69 C   A P 1 
+ATOM   70 P P . G   A 1 70 ? -16.278 -33.268 23.855 1.00 10.00 ? 70 G   A P 1 
+ATOM   71 P P . C   A 1 71 ? -11.710 -35.792 27.674 1.00 10.00 ? 71 C   A P 1 
+ATOM   72 P P . A   A 1 72 ? -7.487  -40.169 29.988 1.00 10.00 ? 72 A   A P 1 
+ATOM   73 P P . C   A 1 73 ? -4.198  -45.249 27.918 1.00 10.00 ? 73 C   A P 1 
+ATOM   74 P P . C   A 1 74 ? -3.111  -49.932 22.688 1.00 10.00 ? 74 C   A P 1 
+ATOM   75 P P . A   A 1 75 ? 3.778   -48.307 20.830 1.00 10.00 ? 75 A   A P 1 
+# 
+loop_
+_pdbx_poly_seq_scheme.asym_id 
+_pdbx_poly_seq_scheme.entity_id 
+_pdbx_poly_seq_scheme.seq_id 
+_pdbx_poly_seq_scheme.mon_id 
+_pdbx_poly_seq_scheme.ndb_seq_num 
+_pdbx_poly_seq_scheme.pdb_seq_num 
+_pdbx_poly_seq_scheme.auth_seq_num 
+_pdbx_poly_seq_scheme.pdb_mon_id 
+_pdbx_poly_seq_scheme.auth_mon_id 
+_pdbx_poly_seq_scheme.pdb_strand_id 
+_pdbx_poly_seq_scheme.pdb_ins_code 
+_pdbx_poly_seq_scheme.hetero 
+A 1 1  C   1  1  1  C   C   A . n 
+A 1 2  G   2  2  2  G   G   A . n 
+A 1 3  G   3  3  3  G   G   A . n 
+A 1 4  A   4  4  4  A   A   A . n 
+A 1 5  U   5  5  5  U   U   A . n 
+A 1 6  U   6  6  6  U   U   A . n 
+A 1 7  U   7  7  7  U   U   A . n 
+A 1 8  A   8  8  8  A   A   A . n 
+A 1 9  2MG 9  9  9  2MG 2MG A . n 
+A 1 10 C   10 10 10 C   C   A . n 
+A 1 11 U   11 11 11 U   U   A . n 
+A 1 12 C   12 12 12 C   C   A . n 
+A 1 13 A   13 13 13 A   A   A . n 
+A 1 14 G   14 14 14 G   G   A . n 
+A 1 15 H2U 15 15 15 H2U H2U A . n 
+A 1 16 H2U 16 16 16 H2U H2U A . n 
+A 1 17 G   17 17 17 G   G   A . n 
+A 1 18 G   18 18 18 G   G   A . n 
+A 1 19 G   19 19 19 G   G   A . n 
+A 1 20 A   20 20 20 A   A   A . n 
+A 1 21 G   21 21 21 G   G   A . n 
+A 1 22 A   22 22 22 A   A   A . n 
+A 1 23 G   23 23 23 G   G   A . n 
+A 1 24 C   24 24 24 C   C   A . n 
+A 1 25 M2G 25 25 25 M2G M2G A . n 
+A 1 26 C   26 26 26 C   C   A . n 
+A 1 27 C   27 27 27 C   C   A . n 
+A 1 28 A   28 28 28 A   A   A . n 
+A 1 29 G   29 29 29 G   G   A . n 
+A 1 30 A   30 30 30 A   A   A . n 
+A 1 31 OMC 31 31 31 OMC OMC A . n 
+A 1 32 U   32 32 32 U   U   A . n 
+A 1 33 OMG 33 33 33 OMG OMG A . n 
+A 1 34 A   34 34 34 A   A   A . n 
+A 1 35 A   35 35 35 A   A   A . n 
+A 1 36 YYG 36 36 36 YYG YYG A . n 
+A 1 37 A   37 37 37 A   A   A . n 
+A 1 38 PSU 38 38 38 PSU PSU A . n 
+A 1 39 5MC 39 39 39 5MC 5MC A . n 
+A 1 40 U   40 40 40 U   U   A . n 
+A 1 41 G   41 41 41 G   G   A . n 
+A 1 42 G   42 42 42 G   G   A . n 
+A 1 43 A   43 43 43 A   A   A . n 
+A 1 44 G   44 44 44 G   G   A . n 
+A 1 45 7MG 45 45 45 7MG 7MG A . n 
+A 1 46 U   46 46 46 U   U   A . n 
+A 1 47 C   47 47 47 C   C   A . n 
+A 1 48 5MC 48 48 48 5MC 5MC A . n 
+A 1 49 U   49 49 49 U   U   A . n 
+A 1 50 G   50 50 50 G   G   A . n 
+A 1 51 U   51 51 51 U   U   A . n 
+A 1 52 G   52 52 52 G   G   A . n 
+A 1 53 5MU 53 53 53 5MU 5MU A . n 
+A 1 54 PSU 54 54 54 PSU PSU A . n 
+A 1 55 C   55 55 55 C   C   A . n 
+A 1 56 G   56 56 56 G   G   A . n 
+A 1 57 1MA 57 57 57 1MA 1MA A . n 
+A 1 58 U   58 58 58 U   U   A . n 
+A 1 59 C   59 59 59 C   C   A . n 
+A 1 60 C   60 60 60 C   C   A . n 
+A 1 61 A   61 61 61 A   A   A . n 
+A 1 62 C   62 62 62 C   C   A . n 
+A 1 63 A   63 63 63 A   A   A . n 
+A 1 64 G   64 64 64 G   G   A . n 
+A 1 65 A   65 65 65 A   A   A . n 
+A 1 66 A   66 66 66 A   A   A . n 
+A 1 67 U   67 67 67 U   U   A . n 
+A 1 68 U   68 68 68 U   U   A . n 
+A 1 69 C   69 69 69 C   C   A . n 
+A 1 70 G   70 70 70 G   G   A . n 
+A 1 71 C   71 71 71 C   C   A . n 
+A 1 72 A   72 72 72 A   A   A . n 
+A 1 73 C   73 73 73 C   C   A . n 
+A 1 74 C   74 74 74 C   C   A . n 
+A 1 75 A   75 75 75 A   A   A . n 
+# 
+loop_
+_pdbx_struct_mod_residue.id 
+_pdbx_struct_mod_residue.label_asym_id 
+_pdbx_struct_mod_residue.label_comp_id 
+_pdbx_struct_mod_residue.label_seq_id 
+_pdbx_struct_mod_residue.auth_asym_id 
+_pdbx_struct_mod_residue.auth_comp_id 
+_pdbx_struct_mod_residue.auth_seq_id 
+_pdbx_struct_mod_residue.PDB_ins_code 
+_pdbx_struct_mod_residue.parent_comp_id 
+_pdbx_struct_mod_residue.details 
+1  A 2MG 9  A 2MG 9  ? G "2N-METHYLGUANOSINE-5'-MONOPHOSPHATE"   
+2  A H2U 15 A H2U 15 ? U "5,6-DIHYDROURIDINE-5'-MONOPHOSPHATE"   
+3  A H2U 16 A H2U 16 ? U "5,6-DIHYDROURIDINE-5'-MONOPHOSPHATE"   
+4  A M2G 25 A M2G 25 ? G "N2-DIMETHYLGUANOSINE-5'-MONOPHOSPHATE" 
+5  A OMC 31 A OMC 31 ? C "O2'-METHYLYCYTIDINE-5'-MONOPHOSPHATE"  
+6  A OMG 33 A OMG 33 ? G "O2'-METHYLGUANOSINE-5'-MONOPHOSPHATE"  
+7  A YYG 36 A YYG 36 ? G ?                                       
+8  A PSU 38 A PSU 38 ? U "PSEUDOURIDINE-5'-MONOPHOSPHATE"        
+9  A 5MC 39 A 5MC 39 ? C "5-METHYLCYTIDINE-5'-MONOPHOSPHATE"     
+10 A 7MG 45 A 7MG 45 ? G ?                                       
+11 A 5MC 48 A 5MC 48 ? C "5-METHYLCYTIDINE-5'-MONOPHOSPHATE"     
+12 A 5MU 53 A 5MU 53 ? U 
+;5-METHYLURIDINE 5'-MONOPHOSPHATE
+;
+13 A PSU 54 A PSU 54 ? U "PSEUDOURIDINE-5'-MONOPHOSPHATE"        
+14 A 1MA 57 A 1MA 57 ? A ?                                       
+# 
+_pdbx_struct_assembly.id                   1 
+_pdbx_struct_assembly.details              author_defined_assembly 
+_pdbx_struct_assembly.method_details       ? 
+_pdbx_struct_assembly.oligomeric_details   monomeric 
+_pdbx_struct_assembly.oligomeric_count     1 
+# 
+_pdbx_struct_assembly_gen.assembly_id       1 
+_pdbx_struct_assembly_gen.oper_expression   1 
+_pdbx_struct_assembly_gen.asym_id_list      A 
+# 
+_pdbx_struct_oper_list.id                   1 
+_pdbx_struct_oper_list.type                 'identity operation' 
+_pdbx_struct_oper_list.name                 1_555 
+_pdbx_struct_oper_list.symmetry_operation   x,y,z 
+_pdbx_struct_oper_list.matrix[1][1]         1.0000000000 
+_pdbx_struct_oper_list.matrix[1][2]         0.0000000000 
+_pdbx_struct_oper_list.matrix[1][3]         0.0000000000 
+_pdbx_struct_oper_list.vector[1]            0.0000000000 
+_pdbx_struct_oper_list.matrix[2][1]         0.0000000000 
+_pdbx_struct_oper_list.matrix[2][2]         1.0000000000 
+_pdbx_struct_oper_list.matrix[2][3]         0.0000000000 
+_pdbx_struct_oper_list.vector[2]            0.0000000000 
+_pdbx_struct_oper_list.matrix[3][1]         0.0000000000 
+_pdbx_struct_oper_list.matrix[3][2]         0.0000000000 
+_pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
+_pdbx_struct_oper_list.vector[3]            0.0000000000 
+# 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2007-10-16 
+2 'Structure model' 1 1 2011-07-13 
+3 'Structure model' 1 2 2019-12-11 
+# 
+_pdbx_audit_revision_details.ordinal             1 
+_pdbx_audit_revision_details.revision_ordinal    1 
+_pdbx_audit_revision_details.data_content_type   'Structure model' 
+_pdbx_audit_revision_details.provider            repository 
+_pdbx_audit_revision_details.type                'Initial release' 
+_pdbx_audit_revision_details.description         ? 
+_pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Non-polymer description'   
+2 2 'Structure model' 'Version format compliance' 
+3 3 'Structure model' 'Data collection'           
+4 3 'Structure model' 'Database references'       
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 3 'Structure model' database_2  
+2 3 'Structure model' em_software 
+# 
+_pdbx_audit_revision_item.ordinal             1 
+_pdbx_audit_revision_item.revision_ordinal    3 
+_pdbx_audit_revision_item.data_content_type   'Structure model' 
+_pdbx_audit_revision_item.item                '_em_software.image_processing_id' 
+# 
+_em_3d_fitting.id                1 
+_em_3d_fitting.entry_id          2Z9Q 
+_em_3d_fitting.ref_protocol      OTHER 
+_em_3d_fitting.ref_space         REAL 
+_em_3d_fitting.overall_b_value   ? 
+_em_3d_fitting.target_criteria   'cross correlation coefficient' 
+_em_3d_fitting.details           'REFINEMENT PROTOCOL--auto' 
+_em_3d_fitting.method            ? 
+# 
+_em_3d_fitting_list.3d_fitting_id   1 
+_em_3d_fitting_list.id              1 
+_em_3d_fitting_list.pdb_entry_id    1TTT 
+_em_3d_fitting_list.pdb_chain_id    ? 
+_em_3d_fitting_list.details         ? 
+# 
+_em_3d_reconstruction.entry_id                    2Z9Q 
+_em_3d_reconstruction.id                          1 
+_em_3d_reconstruction.symmetry_type               POINT 
+_em_3d_reconstruction.image_processing_id         1 
+_em_3d_reconstruction.method                      'single particle reconstruction' 
+_em_3d_reconstruction.nominal_pixel_size          2.80 
+_em_3d_reconstruction.actual_pixel_size           2.82 
+_em_3d_reconstruction.resolution                  11.7 
+_em_3d_reconstruction.magnification_calibration   TMV 
+_em_3d_reconstruction.details                     'THE STRUCTURE CONTAINS P ATOMS ONLY' 
+_em_3d_reconstruction.resolution_method           ? 
+_em_3d_reconstruction.num_class_averages          ? 
+_em_3d_reconstruction.num_particles               ? 
+_em_3d_reconstruction.algorithm                   ? 
+# 
+_em_buffer.id            1 
+_em_buffer.specimen_id   1 
+_em_buffer.name          polymix 
+_em_buffer.pH            7.5 
+_em_buffer.details       polymix 
+# 
+_em_entity_assembly.id                   1 
+_em_entity_assembly.name                 'EF-G bound Release Complex in the presence of Puromycin and GDPNP' 
+_em_entity_assembly.type                 RIBOSOME 
+_em_entity_assembly.parent_id            0 
+_em_entity_assembly.synonym              ? 
+_em_entity_assembly.details              ? 
+_em_entity_assembly.oligomeric_details   ? 
+# 
+_em_image_scans.entry_id                2Z9Q 
+_em_image_scans.id                      1 
+_em_image_scans.image_recording_id      1 
+_em_image_scans.number_digital_images   38858 
+_em_image_scans.citation_id             ? 
+_em_image_scans.od_range                ? 
+_em_image_scans.quant_bit_size          ? 
+_em_image_scans.sampling_size           ? 
+_em_image_scans.scanner_model           ? 
+_em_image_scans.details                 ? 
+# 
+_em_imaging.entry_id                        2Z9Q 
+_em_imaging.id                              1 
+_em_imaging.microscope_model                'FEI TECNAI F20' 
+_em_imaging.mode                            'BRIGHT FIELD' 
+_em_imaging.illumination_mode               'FLOOD BEAM' 
+_em_imaging.electron_source                 'FIELD EMISSION GUN' 
+_em_imaging.specimen_id                     1 
+_em_imaging.date                            2001-06-01 
+_em_imaging.temperature                     80 
+_em_imaging.nominal_defocus_min             1.750 
+_em_imaging.nominal_defocus_max             3.925 
+_em_imaging.tilt_angle_min                  0 
+_em_imaging.tilt_angle_max                  0 
+_em_imaging.nominal_cs                      2.00 
+_em_imaging.nominal_magnification           50000 
+_em_imaging.calibrated_magnification        49696 
+_em_imaging.accelerating_voltage            200 
+_em_imaging.details                         'SAMPLES WERE MAINTAINED AT LIQUID NITROGEN' 
+_em_imaging.specimen_holder_type            . 
+_em_imaging.specimen_holder_model           . 
+_em_imaging.citation_id                     ? 
+_em_imaging.detector_distance               ? 
+_em_imaging.recording_temperature_maximum   ? 
+_em_imaging.recording_temperature_minimum   ? 
+_em_imaging.astigmatism                     ? 
+_em_imaging.electron_beam_tilt_params       ? 
+# 
+_em_sample_support.id               1 
+_em_sample_support.specimen_id      1 
+_em_sample_support.details          'carbon on quantifoil grids' 
+_em_sample_support.film_material    ? 
+_em_sample_support.grid_material    ? 
+_em_sample_support.grid_mesh_size   ? 
+_em_sample_support.grid_type        ? 
+_em_sample_support.method           ? 
+# 
+_em_vitrification.entry_id              2Z9Q 
+_em_vitrification.id                    1 
+_em_vitrification.cryogen_name          ETHANE 
+_em_vitrification.details               'PLUNGED INTO ETHANE' 
+_em_vitrification.citation_id           ? 
+_em_vitrification.humidity              ? 
+_em_vitrification.instrument            ? 
+_em_vitrification.method                ? 
+_em_vitrification.specimen_id           1 
+_em_vitrification.temp                  ? 
+_em_vitrification.time_resolved_state   ? 
+# 
+_em_experiment.entry_id                2Z9Q 
+_em_experiment.id                      1 
+_em_experiment.aggregation_state       PARTICLE 
+_em_experiment.entity_assembly_id      1 
+_em_experiment.reconstruction_method   'SINGLE PARTICLE' 
+# 
+_em_single_particle_entity.entry_id              2Z9Q 
+_em_single_particle_entity.id                    1 
+_em_single_particle_entity.point_symmetry        C1 
+_em_single_particle_entity.image_processing_id   1 
+# 
+_em_ctf_correction.id        1 
+_em_ctf_correction.details   'CTF correction of each defocus group reconstruction' 
+_em_ctf_correction.type      . 
+# 
+_em_image_processing.id                   1 
+_em_image_processing.image_recording_id   1 
+_em_image_processing.details              ? 
+# 
+_em_image_recording.details                       ? 
+_em_image_recording.id                            1 
+_em_image_recording.avg_electron_dose_per_image   15 
+_em_image_recording.film_or_detector_model        'KODAK SO-163 FILM' 
+_em_image_recording.imaging_id                    1 
+_em_image_recording.detector_mode                 ? 
+_em_image_recording.average_exposure_time         ? 
+_em_image_recording.num_diffraction_images        ? 
+_em_image_recording.num_grids_imaged              ? 
+_em_image_recording.num_real_images               ? 
+# 
+_em_software.id                    1 
+_em_software.name                  SPIDER 
+_em_software.version               ? 
+_em_software.category              RECONSTRUCTION 
+_em_software.details               'Fast Motif Search Procedure in SPIDER. Reference: Rath and Frank 2004 JSB 145 page84' 
+_em_software.image_processing_id   1 
+# 
+_em_specimen.experiment_id           1 
+_em_specimen.id                      1 
+_em_specimen.concentration           32 
+_em_specimen.vitrification_applied   YES 
+_em_specimen.staining_applied        NO 
+_em_specimen.embedding_applied       NO 
+_em_specimen.shadowing_applied       NO 
+_em_specimen.details                 ? 
+# 
+_pdbx_coordinate_model.asym_id   A 
+_pdbx_coordinate_model.type      'P ATOMS ONLY' 
+# 

@@ -1,0 +1,86 @@
+STAR3D: a stack-based RNA 3D structural alignment tool
+
+STAR3D is implemented by using java 1.7 and can be executed in 64-bit 
+Linux. Two java packages, "commons-cli-1.2.jar" and "EJML-core-0.26.jar", 
+are used in the program to support argument parsing and efficient 
+matrix computation.  Two programs, "MC-Annotate" and "RemovePseudoknots", 
+are used for base pairing annotation and pseudo-knots removal. 
+"Apache ant" is required to compile the source code.
+
+
+* Requirement
+Apache ant: http://ant.apache.org/bindownload.cgi
+
+For Linux system, ant can be installed directly by using command line.
+Debian/Ubuntu: "apt-get install ant"
+Fedora/CentOS: "yum install ant"
+
+The two jar files and two programs have been already included into 
+the package.
+
+Notice: RemovePseudoknots in the "tool" directory is compiled with 
+GNU libc 2.12 in Linux. (The version of libc can be checked with "ldd --version".) 
+If RemovePseudoknots can not work (*.npk.ct files can not be generated), 
+please update the GNU lib in Linux or recompile RNAstructure in your system. 
+RNAstructure can be downloaded at "http://rna.urmc.rochester.edu/RNAstructure.html".
+
+
+* Installation
+Go to the STAR3D home directory and execute "ant jar".
+(The users can also clean the compiled files by executing "ant clean")
+
+
+* Preprocessing
+STAR3D downloads PDB files and preprocesses them to retrieve the 
+secondary structural information.
+
+Go to the STAR3D home directory and execute 
+"java -cp STAR3D.jar Preprocess [PDB ID] [Chain ID]".
+
+Notice: Make sure the fold "tools" and file "STAR3D.jar" in the same directory. 
+
+
+* Structural Alignment
+Go to the STAR3D home directory and execute 
+"java -jar STAR3D.jar [PDB1 ID] [Chain1 ID] [PDB2 ID] [Chain2 ID]"
+More options for the program can be seen by executing 
+"java -jar STAR3D.jar -h"
+
+Notice: Make sure the folds "PDB", "STAR3D_struct_info" and the file "STAR3D.jar" 
+in the same directory. 
+
+
+* Show superimposition in pymol
+Make sure "PyMOL" is installed in the system.
+
+1. Execute STAR3D with "-p" option to generate the PDB file for the 
+alignment.
+2. Open pymol
+3. Import ShowAln module into pymol: 
+	execute "run /path/to/script/ShowAln.py" in pymol
+4. Show the alignment:
+	execute "ShowAln [aln_pdb], [aln_file]" in pymol
+	aln_pdb: the PDB file for the alignment.
+	aln_file: the alignment file.
+
+Notice: For the alignments of large RNAs such as 16S and 23S rRNAs, it may 
+take a while to render the figure. 
+	
+ACKNOWLEDGEMENTS:
+
+	STAR3D is developed for an NIH funded project (R01GM102515).
+	
+	STAR3D uses java packages Commons CLI and EJML.
+	Commons CLI: http://commons.apache.org/proper/commons-cli/
+	EJML: http://ejml.org/wiki/index.php?title=Main_Page
+	
+	Third party software MC-Annotate was downloaded from
+	http://major.iric.ca/MajorLabEn/MC-Tools.html
+	
+	Third party software RemovePesudoknots (in RNAstructure) was 
+	downloaded from
+	http://rna.urmc.rochester.edu/RNAstructure.html
+	  
+CONTACTS:
+	For bug reports or comments please contact
+	pge@cs.ucf.edu or shzhang@eecs.ucf.edu.

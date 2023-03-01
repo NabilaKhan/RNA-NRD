@@ -1,0 +1,16 @@
+WARNING: Co-ordinates for alignments not found! rmsd = 20 assigned.
+WARNING: Co-ordinates for alignments not found! rmsd = 20 assigned.
+WARNING: Co-ordinates for alignments not found! rmsd = 20 assigned.
+WARNING: Co-ordinates for alignments not found! rmsd = 20 assigned.
+Aligning Pair: 6YSI_6||6YHS_6
+RMSD:  0.5907279267977901A
+Aligning Pair: 6YSI_6||6YSI_8
+RMSD:  20.0A
+Aligning Pair: 6YSI_6||6YHS_8
+RMSD:  20.0A
+Aligning Pair: 6YHS_6||6YSI_8
+RMSD:  20.0A
+Aligning Pair: 6YHS_6||6YHS_8
+RMSD:  20.0A
+Aligning Pair: 6YSI_8||6YHS_8
+RMSD:  0.38572775946005394A

@@ -1,0 +1,399 @@
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: x3dna-dssr -i=3pgw.pdb -o=3pgw.out
+File name: 3pgw.pdb
+    no. of DNA/RNA chains: 4 [D=8,M=8,N=163,R=163]
+    no. of nucleotides:    342
+    no. of atoms:          2058
+    no. of waters:         0
+    no. of metals:         0
+
+****************************************************************************
+List of 4 non-loop single-stranded segments
+   1 nts=163* UACUUACCUGGCAGGGGAGAUACCAUGAUCACGAAGGUGGUUUUCCCAGGGCGAGGCUUAUCCAUUGCACUCCGGAUGUGCUGACCCCUGCGAUUUCCCCAAAUGUGGGAAACUCGACUGCAUAAUUUGUGGUAGUGGGGGACUGCGUUCGCGCUUUCCCCUG R.U2,R.A3,R.C4,R.U5,R.U6,R.A7,R.C8,R.C9,R.U10,R.G11,R.G12,R.C13,R.A14,R.G15,R.G16,R.G17,R.G18,R.A19,R.G20,R.A21,R.U22,R.A23,R.C24,R.C25,R.A26,R.U27,R.G28,R.A29,R.U30,R.C31,R.A32,R.C33,R.G34,R.A35,R.A36,R.G37,R.G38,R.U39,R.G40,R.G41,R.U42,R.U43,R.U44,R.U45,R.C46,R.C47,R.C48,R.A49,R.G50,R.G51,R.G52,R.C53,R.G54,R.A55,R.G56,R.G57,R.C58,R.U59,R.U60,R.A61,R.U62,R.C63,R.C64,R.A65,R.U66,R.U67,R.G68,R.C69,R.A70,R.C71,R.U72,R.C73,R.C74,R.G75,R.G76,R.A77,R.U78,R.G79,R.U80,R.G81,R.C82,R.U83,R.G84,R.A85,R.C86,R.C87,R.C88,R.C89,R.U90,R.G91,R.C92,R.G93,R.A94,R.U95,R.U96,R.U97,R.C98,R.C99,R.C100,R.C101,R.A102,R.A103,R.A104,R.U105,R.G106,R.U107,R.G108,R.G109,R.G110,R.A111,R.A112,R.A113,R.C114,R.U115,R.C116,R.G117,R.A118,R.C119,R.U120,R.G121,R.C122,R.A123,R.U124,R.A125,R.A126,R.U127,R.U128,R.U129,R.G130,R.U131,R.G132,R.G133,R.U134,R.A135,R.G136,R.U137,R.G138,R.G139,R.G140,R.G141,R.G142,R.A143,R.C144,R.U145,R.G146,R.C147,R.G148,R.U149,R.U150,R.C151,R.G152,R.C153,R.G154,R.C155,R.U156,R.U157,R.U158,R.C159,R.C160,R.C161,R.C162,R.U163,R.G164
+   2 nts=163* UACUUACCUGGCAGGGGAGAUACCAUGAUCACGAAGGUGGUUUUCCCAGGGCGAGGCUUAUCCAUUGCACUCCGGAUGUGCUGACCCCUGCGAUUUCCCCAAAUGUGGGAAACUCGACUGCAUAAUUUGUGGUAGUGGGGGACUGCGUUCGCGCUUUCCCCUG N.U2,N.A3,N.C4,N.U5,N.U6,N.A7,N.C8,N.C9,N.U10,N.G11,N.G12,N.C13,N.A14,N.G15,N.G16,N.G17,N.G18,N.A19,N.G20,N.A21,N.U22,N.A23,N.C24,N.C25,N.A26,N.U27,N.G28,N.A29,N.U30,N.C31,N.A32,N.C33,N.G34,N.A35,N.A36,N.G37,N.G38,N.U39,N.G40,N.G41,N.U42,N.U43,N.U44,N.U45,N.C46,N.C47,N.C48,N.A49,N.G50,N.G51,N.G52,N.C53,N.G54,N.A55,N.G56,N.G57,N.C58,N.U59,N.U60,N.A61,N.U62,N.C63,N.C64,N.A65,N.U66,N.U67,N.G68,N.C69,N.A70,N.C71,N.U72,N.C73,N.C74,N.G75,N.G76,N.A77,N.U78,N.G79,N.U80,N.G81,N.C82,N.U83,N.G84,N.A85,N.C86,N.C87,N.C88,N.C89,N.U90,N.G91,N.C92,N.G93,N.A94,N.U95,N.U96,N.U97,N.C98,N.C99,N.C100,N.C101,N.A102,N.A103,N.A104,N.U105,N.G106,N.U107,N.G108,N.G109,N.G110,N.A111,N.A112,N.A113,N.C114,N.U115,N.C116,N.G117,N.A118,N.C119,N.U120,N.G121,N.C122,N.A123,N.U124,N.A125,N.A126,N.U127,N.U128,N.U129,N.G130,N.U131,N.G132,N.G133,N.U134,N.A135,N.G136,N.U137,N.G138,N.G139,N.G140,N.G141,N.G142,N.A143,N.C144,N.U145,N.G146,N.C147,N.G148,N.U149,N.U150,N.C151,N.G152,N.C153,N.G154,N.C155,N.U156,N.U157,N.U158,N.C159,N.C160,N.C161,N.C162,N.U163,N.G164
+   3 nts=8* GGTAAGTA D.DG2,D.DG3,D.DT4,D.DA5,D.DA6,D.DG7,D.DT8,D.DA9
+   4 nts=8* GGTAAGTA M.DG2,M.DG3,M.DT4,M.DA5,M.DA6,M.DG7,M.DT8,M.DA9
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>3pgw nts=342 [whole]
+U&A&C&U&U&A&C&C&U&G&G&C&A&G&G&G&G&A&G&A&U&A&C&C&A&U&G&A&U&C&A&C&G&A&A&G&G&U&G&G&U&U&U&U&C&C&C&A&G&G&G&C&G&A&G&G&C&U&U&A&U&C&C&A&U&U&G&C&A&C&U&C&C&G&G&A&U&G&U&G&C&U&G&A&C&C&C&C&U&G&C&G&A&U&U&U&C&C&C&C&A&A&A&U&G&U&G&G&G&A&A&A&C&U&C&G&A&C&U&G&C&A&U&A&A&U&U&U&G&U&G&G&U&A&G&U&G&G&G&G&G&A&C&U&G&C&G&U&U&C&G&C&G&C&U&U&U&C&C&C&C&U&G&U&A&C&U&U&A&C&C&U&G&G&C&A&G&G&G&G&A&G&A&U&A&C&C&A&U&G&A&U&C&A&C&G&A&A&G&G&U&G&G&U&U&U&U&C&C&C&A&G&G&G&C&G&A&G&G&C&U&U&A&U&C&C&A&U&U&G&C&A&C&U&C&C&G&G&A&U&G&U&G&C&U&G&A&C&C&C&C&U&G&C&G&A&U&U&U&C&C&C&C&A&A&A&U&G&U&G&G&G&A&A&A&C&U&C&G&A&C&U&G&C&A&U&A&A&U&U&U&G&U&G&G&U&A&G&U&G&G&G&G&G&A&C&U&G&C&G&U&U&C&G&C&G&C&U&U&U&C&C&C&C&U&G&G&G&T&A&A&G&T&A&G&G&T&A&A&G&T&A
+.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.
+>3pgw-R #1 nts=163 [chain] DNA*
+U&A&C&U&U&A&C&C&U&G&G&C&A&G&G&G&G&A&G&A&U&A&C&C&A&U&G&A&U&C&A&C&G&A&A&G&G&U&G&G&U&U&U&U&C&C&C&A&G&G&G&C&G&A&G&G&C&U&U&A&U&C&C&A&U&U&G&C&A&C&U&C&C&G&G&A&U&G&U&G&C&U&G&A&C&C&C&C&U&G&C&G&A&U&U&U&C&C&C&C&A&A&A&U&G&U&G&G&G&A&A&A&C&U&C&G&A&C&U&G&C&A&U&A&A&U&U&U&G&U&G&G&U&A&G&U&G&G&G&G&G&A&C&U&G&C&G&U&U&C&G&C&G&C&U&U&U&C&C&C&C&U&G
+.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.
+>3pgw-N #2 nts=163 [chain] DNA*
+U&A&C&U&U&A&C&C&U&G&G&C&A&G&G&G&G&A&G&A&U&A&C&C&A&U&G&A&U&C&A&C&G&A&A&G&G&U&G&G&U&U&U&U&C&C&C&A&G&G&G&C&G&A&G&G&C&U&U&A&U&C&C&A&U&U&G&C&A&C&U&C&C&G&G&A&U&G&U&G&C&U&G&A&C&C&C&C&U&G&C&G&A&U&U&U&C&C&C&C&A&A&A&U&G&U&G&G&G&A&A&A&C&U&C&G&A&C&U&G&C&A&U&A&A&U&U&U&G&U&G&G&U&A&G&U&G&G&G&G&G&A&C&U&G&C&G&U&U&C&G&C&G&C&U&U&U&C&C&C&C&U&G
+.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.&.
+>3pgw-D #3 nts=8 [chain] DNA*
+G&G&T&A&A&G&T&A
+.&.&.&.&.&.&.&.
+>3pgw-M #4 nts=8 [chain] DNA*
+G&G&T&A&A&G&T&A
+.&.&.&.&.&.&.&.
+
+****************************************************************************
+Summary of structural features of 342 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  U . R.U2     ---    break,non-stack,ss-non-loop
+   2  A . R.A3     ---    break,non-stack,ss-non-loop
+   3  C . R.C4     ---    break,non-stack,ss-non-loop
+   4  U . R.U5     ---    break,non-stack,ss-non-loop
+   5  U . R.U6     ---    break,non-stack,ss-non-loop
+   6  A . R.A7     ---    break,non-stack,ss-non-loop
+   7  C . R.C8     ---    break,non-stack,ss-non-loop
+   8  C . R.C9     ---    break,non-stack,ss-non-loop
+   9  U . R.U10    ---    break,non-stack,ss-non-loop
+  10  G . R.G11    ---    break,non-stack,ss-non-loop
+  11  G . R.G12    ---    break,non-stack,ss-non-loop
+  12  C . R.C13    ---    break,non-stack,ss-non-loop
+  13  A . R.A14    ---    break,non-stack,ss-non-loop
+  14  G . R.G15    ---    break,non-stack,ss-non-loop
+  15  G . R.G16    ---    break,non-stack,ss-non-loop
+  16  G . R.G17    ---    break,non-stack,ss-non-loop
+  17  G . R.G18    ---    break,non-stack,ss-non-loop
+  18  A . R.A19    ---    break,non-stack,ss-non-loop
+  19  G . R.G20    ---    break,non-stack,ss-non-loop
+  20  A . R.A21    ---    break,non-stack,ss-non-loop
+  21  U . R.U22    ---    break,non-stack,ss-non-loop
+  22  A . R.A23    ---    break,non-stack,ss-non-loop
+  23  C . R.C24    ---    break,non-stack,ss-non-loop
+  24  C . R.C25    ---    break,non-stack,ss-non-loop
+  25  A . R.A26    ---    break,non-stack,ss-non-loop
+  26  U . R.U27    ---    break,non-stack,ss-non-loop
+  27  G . R.G28    ---    break,non-stack,ss-non-loop
+  28  A . R.A29    ---    break,non-stack,ss-non-loop
+  29  U . R.U30    ---    break,non-stack,ss-non-loop
+  30  C . R.C31    ---    break,non-stack,ss-non-loop
+  31  A . R.A32    ---    break,non-stack,ss-non-loop
+  32  C . R.C33    ---    break,non-stack,ss-non-loop
+  33  G . R.G34    ---    break,non-stack,ss-non-loop
+  34  A . R.A35    ---    break,non-stack,ss-non-loop
+  35  A . R.A36    ---    break,non-stack,ss-non-loop
+  36  G . R.G37    ---    break,non-stack,ss-non-loop
+  37  G . R.G38    ---    break,non-stack,ss-non-loop
+  38  U . R.U39    ---    break,non-stack,ss-non-loop
+  39  G . R.G40    ---    break,non-stack,ss-non-loop
+  40  G . R.G41    ---    break,non-stack,ss-non-loop
+  41  U . R.U42    ---    break,non-stack,ss-non-loop
+  42  U . R.U43    ---    break,non-stack,ss-non-loop
+  43  U . R.U44    ---    break,non-stack,ss-non-loop
+  44  U . R.U45    ---    break,non-stack,ss-non-loop
+  45  C . R.C46    ---    break,non-stack,ss-non-loop
+  46  C . R.C47    ---    break,non-stack,ss-non-loop
+  47  C . R.C48    ---    break,non-stack,ss-non-loop
+  48  A . R.A49    ---    break,non-stack,ss-non-loop
+  49  G . R.G50    ---    break,non-stack,ss-non-loop
+  50  G . R.G51    ---    break,non-stack,ss-non-loop
+  51  G . R.G52    ---    break,non-stack,ss-non-loop
+  52  C . R.C53    ---    break,non-stack,ss-non-loop
+  53  G . R.G54    ---    break,non-stack,ss-non-loop
+  54  A . R.A55    ---    break,non-stack,ss-non-loop
+  55  G . R.G56    ---    break,non-stack,ss-non-loop
+  56  G . R.G57    ---    break,non-stack,ss-non-loop
+  57  C . R.C58    ---    break,non-stack,ss-non-loop
+  58  U . R.U59    ---    break,non-stack,ss-non-loop
+  59  U . R.U60    ---    break,non-stack,ss-non-loop
+  60  A . R.A61    ---    break,non-stack,ss-non-loop
+  61  U . R.U62    ---    break,non-stack,ss-non-loop
+  62  C . R.C63    ---    break,non-stack,ss-non-loop
+  63  C . R.C64    ---    break,non-stack,ss-non-loop
+  64  A . R.A65    ---    break,non-stack,ss-non-loop
+  65  U . R.U66    ---    break,non-stack,ss-non-loop
+  66  U . R.U67    ---    break,non-stack,ss-non-loop
+  67  G . R.G68    ---    break,non-stack,ss-non-loop
+  68  C . R.C69    ---    break,non-stack,ss-non-loop
+  69  A . R.A70    ---    break,non-stack,ss-non-loop
+  70  C . R.C71    ---    break,non-stack,ss-non-loop
+  71  U . R.U72    ---    break,non-stack,ss-non-loop
+  72  C . R.C73    ---    break,non-stack,ss-non-loop
+  73  C . R.C74    ---    break,non-stack,ss-non-loop
+  74  G . R.G75    ---    break,non-stack,ss-non-loop
+  75  G . R.G76    ---    break,non-stack,ss-non-loop
+  76  A . R.A77    ---    break,non-stack,ss-non-loop
+  77  U . R.U78    ---    break,non-stack,ss-non-loop
+  78  G . R.G79    ---    break,non-stack,ss-non-loop
+  79  U . R.U80    ---    break,non-stack,ss-non-loop
+  80  G . R.G81    ---    break,non-stack,ss-non-loop
+  81  C . R.C82    ---    break,non-stack,ss-non-loop
+  82  U . R.U83    ---    break,non-stack,ss-non-loop
+  83  G . R.G84    ---    break,non-stack,ss-non-loop
+  84  A . R.A85    ---    break,non-stack,ss-non-loop
+  85  C . R.C86    ---    break,non-stack,ss-non-loop
+  86  C . R.C87    ---    break,non-stack,ss-non-loop
+  87  C . R.C88    ---    break,non-stack,ss-non-loop
+  88  C . R.C89    ---    break,non-stack,ss-non-loop
+  89  U . R.U90    ---    break,non-stack,ss-non-loop
+  90  G . R.G91    ---    break,non-stack,ss-non-loop
+  91  C . R.C92    ---    break,non-stack,ss-non-loop
+  92  G . R.G93    ---    break,non-stack,ss-non-loop
+  93  A . R.A94    ---    break,non-stack,ss-non-loop
+  94  U . R.U95    ---    break,non-stack,ss-non-loop
+  95  U . R.U96    ---    break,non-stack,ss-non-loop
+  96  U . R.U97    ---    break,non-stack,ss-non-loop
+  97  C . R.C98    ---    break,non-stack,ss-non-loop
+  98  C . R.C99    ---    break,non-stack,ss-non-loop
+  99  C . R.C100   ---    break,non-stack,ss-non-loop
+ 100  C . R.C101   ---    break,non-stack,ss-non-loop
+ 101  A . R.A102   ---    break,non-stack,ss-non-loop
+ 102  A . R.A103   ---    break,non-stack,ss-non-loop
+ 103  A . R.A104   ---    break,non-stack,ss-non-loop
+ 104  U . R.U105   ---    break,non-stack,ss-non-loop
+ 105  G . R.G106   ---    break,non-stack,ss-non-loop
+ 106  U . R.U107   ---    break,non-stack,ss-non-loop
+ 107  G . R.G108   ---    break,non-stack,ss-non-loop
+ 108  G . R.G109   ---    break,non-stack,ss-non-loop
+ 109  G . R.G110   ---    break,non-stack,ss-non-loop
+ 110  A . R.A111   ---    break,non-stack,ss-non-loop
+ 111  A . R.A112   ---    break,non-stack,ss-non-loop
+ 112  A . R.A113   ---    break,non-stack,ss-non-loop
+ 113  C . R.C114   ---    break,non-stack,ss-non-loop
+ 114  U . R.U115   ---    break,non-stack,ss-non-loop
+ 115  C . R.C116   ---    break,non-stack,ss-non-loop
+ 116  G . R.G117   ---    break,non-stack,ss-non-loop
+ 117  A . R.A118   ---    break,non-stack,ss-non-loop
+ 118  C . R.C119   ---    break,non-stack,ss-non-loop
+ 119  U . R.U120   ---    break,non-stack,ss-non-loop
+ 120  G . R.G121   ---    break,non-stack,ss-non-loop
+ 121  C . R.C122   ---    break,non-stack,ss-non-loop
+ 122  A . R.A123   ---    break,non-stack,ss-non-loop
+ 123  U . R.U124   ---    break,non-stack,ss-non-loop
+ 124  A . R.A125   ---    break,non-stack,ss-non-loop
+ 125  A . R.A126   ---    break,non-stack,ss-non-loop
+ 126  U . R.U127   ---    break,non-stack,ss-non-loop
+ 127  U . R.U128   ---    break,non-stack,ss-non-loop
+ 128  U . R.U129   ---    break,non-stack,ss-non-loop
+ 129  G . R.G130   ---    break,non-stack,ss-non-loop
+ 130  U . R.U131   ---    break,non-stack,ss-non-loop
+ 131  G . R.G132   ---    break,non-stack,ss-non-loop
+ 132  G . R.G133   ---    break,non-stack,ss-non-loop
+ 133  U . R.U134   ---    break,non-stack,ss-non-loop
+ 134  A . R.A135   ---    break,non-stack,ss-non-loop
+ 135  G . R.G136   ---    break,non-stack,ss-non-loop
+ 136  U . R.U137   ---    break,non-stack,ss-non-loop
+ 137  G . R.G138   ---    break,non-stack,ss-non-loop
+ 138  G . R.G139   ---    break,non-stack,ss-non-loop
+ 139  G . R.G140   ---    break,non-stack,ss-non-loop
+ 140  G . R.G141   ---    break,non-stack,ss-non-loop
+ 141  G . R.G142   ---    break,non-stack,ss-non-loop
+ 142  A . R.A143   ---    break,non-stack,ss-non-loop
+ 143  C . R.C144   ---    break,non-stack,ss-non-loop
+ 144  U . R.U145   ---    break,non-stack,ss-non-loop
+ 145  G . R.G146   ---    break,non-stack,ss-non-loop
+ 146  C . R.C147   ---    break,non-stack,ss-non-loop
+ 147  G . R.G148   ---    break,non-stack,ss-non-loop
+ 148  U . R.U149   ---    break,non-stack,ss-non-loop
+ 149  U . R.U150   ---    break,non-stack,ss-non-loop
+ 150  C . R.C151   ---    break,non-stack,ss-non-loop
+ 151  G . R.G152   ---    break,non-stack,ss-non-loop
+ 152  C . R.C153   ---    break,non-stack,ss-non-loop
+ 153  G . R.G154   ---    break,non-stack,ss-non-loop
+ 154  C . R.C155   ---    break,non-stack,ss-non-loop
+ 155  U . R.U156   ---    break,non-stack,ss-non-loop
+ 156  U . R.U157   ---    break,non-stack,ss-non-loop
+ 157  U . R.U158   ---    break,non-stack,ss-non-loop
+ 158  C . R.C159   ---    break,non-stack,ss-non-loop
+ 159  C . R.C160   ---    break,non-stack,ss-non-loop
+ 160  C . R.C161   ---    break,non-stack,ss-non-loop
+ 161  C . R.C162   ---    break,non-stack,ss-non-loop
+ 162  U . R.U163   ---    break,non-stack,ss-non-loop
+ 163  G . R.G164   ---    non-stack,ss-non-loop
+ 164  U . N.U2     ---    break,non-stack,ss-non-loop
+ 165  A . N.A3     ---    break,non-stack,ss-non-loop
+ 166  C . N.C4     ---    break,non-stack,ss-non-loop
+ 167  U . N.U5     ---    break,non-stack,ss-non-loop
+ 168  U . N.U6     ---    break,non-stack,ss-non-loop
+ 169  A . N.A7     ---    break,non-stack,ss-non-loop
+ 170  C . N.C8     ---    break,non-stack,ss-non-loop
+ 171  C . N.C9     ---    break,non-stack,ss-non-loop
+ 172  U . N.U10    ---    break,non-stack,ss-non-loop
+ 173  G . N.G11    ---    break,non-stack,ss-non-loop
+ 174  G . N.G12    ---    break,non-stack,ss-non-loop
+ 175  C . N.C13    ---    break,non-stack,ss-non-loop
+ 176  A . N.A14    ---    break,non-stack,ss-non-loop
+ 177  G . N.G15    ---    break,non-stack,ss-non-loop
+ 178  G . N.G16    ---    break,non-stack,ss-non-loop
+ 179  G . N.G17    ---    break,non-stack,ss-non-loop
+ 180  G . N.G18    ---    break,non-stack,ss-non-loop
+ 181  A . N.A19    ---    break,non-stack,ss-non-loop
+ 182  G . N.G20    ---    break,non-stack,ss-non-loop
+ 183  A . N.A21    ---    break,non-stack,ss-non-loop
+ 184  U . N.U22    ---    break,non-stack,ss-non-loop
+ 185  A . N.A23    ---    break,non-stack,ss-non-loop
+ 186  C . N.C24    ---    break,non-stack,ss-non-loop
+ 187  C . N.C25    ---    break,non-stack,ss-non-loop
+ 188  A . N.A26    ---    break,non-stack,ss-non-loop
+ 189  U . N.U27    ---    break,non-stack,ss-non-loop
+ 190  G . N.G28    ---    break,non-stack,ss-non-loop
+ 191  A . N.A29    ---    break,non-stack,ss-non-loop
+ 192  U . N.U30    ---    break,non-stack,ss-non-loop
+ 193  C . N.C31    ---    break,non-stack,ss-non-loop
+ 194  A . N.A32    ---    break,non-stack,ss-non-loop
+ 195  C . N.C33    ---    break,non-stack,ss-non-loop
+ 196  G . N.G34    ---    break,non-stack,ss-non-loop
+ 197  A . N.A35    ---    break,non-stack,ss-non-loop
+ 198  A . N.A36    ---    break,non-stack,ss-non-loop
+ 199  G . N.G37    ---    break,non-stack,ss-non-loop
+ 200  G . N.G38    ---    break,non-stack,ss-non-loop
+ 201  U . N.U39    ---    break,non-stack,ss-non-loop
+ 202  G . N.G40    ---    break,non-stack,ss-non-loop
+ 203  G . N.G41    ---    break,non-stack,ss-non-loop
+ 204  U . N.U42    ---    break,non-stack,ss-non-loop
+ 205  U . N.U43    ---    break,non-stack,ss-non-loop
+ 206  U . N.U44    ---    break,non-stack,ss-non-loop
+ 207  U . N.U45    ---    break,non-stack,ss-non-loop
+ 208  C . N.C46    ---    break,non-stack,ss-non-loop
+ 209  C . N.C47    ---    break,non-stack,ss-non-loop
+ 210  C . N.C48    ---    break,non-stack,ss-non-loop
+ 211  A . N.A49    ---    break,non-stack,ss-non-loop
+ 212  G . N.G50    ---    break,non-stack,ss-non-loop
+ 213  G . N.G51    ---    break,non-stack,ss-non-loop
+ 214  G . N.G52    ---    break,non-stack,ss-non-loop
+ 215  C . N.C53    ---    break,non-stack,ss-non-loop
+ 216  G . N.G54    ---    break,non-stack,ss-non-loop
+ 217  A . N.A55    ---    break,non-stack,ss-non-loop
+ 218  G . N.G56    ---    break,non-stack,ss-non-loop
+ 219  G . N.G57    ---    break,non-stack,ss-non-loop
+ 220  C . N.C58    ---    break,non-stack,ss-non-loop
+ 221  U . N.U59    ---    break,non-stack,ss-non-loop
+ 222  U . N.U60    ---    break,non-stack,ss-non-loop
+ 223  A . N.A61    ---    break,non-stack,ss-non-loop
+ 224  U . N.U62    ---    break,non-stack,ss-non-loop
+ 225  C . N.C63    ---    break,non-stack,ss-non-loop
+ 226  C . N.C64    ---    break,non-stack,ss-non-loop
+ 227  A . N.A65    ---    break,non-stack,ss-non-loop
+ 228  U . N.U66    ---    break,non-stack,ss-non-loop
+ 229  U . N.U67    ---    break,non-stack,ss-non-loop
+ 230  G . N.G68    ---    break,non-stack,ss-non-loop
+ 231  C . N.C69    ---    break,non-stack,ss-non-loop
+ 232  A . N.A70    ---    break,non-stack,ss-non-loop
+ 233  C . N.C71    ---    break,non-stack,ss-non-loop
+ 234  U . N.U72    ---    break,non-stack,ss-non-loop
+ 235  C . N.C73    ---    break,non-stack,ss-non-loop
+ 236  C . N.C74    ---    break,non-stack,ss-non-loop
+ 237  G . N.G75    ---    break,non-stack,ss-non-loop
+ 238  G . N.G76    ---    break,non-stack,ss-non-loop
+ 239  A . N.A77    ---    break,non-stack,ss-non-loop
+ 240  U . N.U78    ---    break,non-stack,ss-non-loop
+ 241  G . N.G79    ---    break,non-stack,ss-non-loop
+ 242  U . N.U80    ---    break,non-stack,ss-non-loop
+ 243  G . N.G81    ---    break,non-stack,ss-non-loop
+ 244  C . N.C82    ---    break,non-stack,ss-non-loop
+ 245  U . N.U83    ---    break,non-stack,ss-non-loop
+ 246  G . N.G84    ---    break,non-stack,ss-non-loop
+ 247  A . N.A85    ---    break,non-stack,ss-non-loop
+ 248  C . N.C86    ---    break,non-stack,ss-non-loop
+ 249  C . N.C87    ---    break,non-stack,ss-non-loop
+ 250  C . N.C88    ---    break,non-stack,ss-non-loop
+ 251  C . N.C89    ---    break,non-stack,ss-non-loop
+ 252  U . N.U90    ---    break,non-stack,ss-non-loop
+ 253  G . N.G91    ---    break,non-stack,ss-non-loop
+ 254  C . N.C92    ---    break,non-stack,ss-non-loop
+ 255  G . N.G93    ---    break,non-stack,ss-non-loop
+ 256  A . N.A94    ---    break,non-stack,ss-non-loop
+ 257  U . N.U95    ---    break,non-stack,ss-non-loop
+ 258  U . N.U96    ---    break,non-stack,ss-non-loop
+ 259  U . N.U97    ---    break,non-stack,ss-non-loop
+ 260  C . N.C98    ---    break,non-stack,ss-non-loop
+ 261  C . N.C99    ---    break,non-stack,ss-non-loop
+ 262  C . N.C100   ---    break,non-stack,ss-non-loop
+ 263  C . N.C101   ---    break,non-stack,ss-non-loop
+ 264  A . N.A102   ---    break,non-stack,ss-non-loop
+ 265  A . N.A103   ---    break,non-stack,ss-non-loop
+ 266  A . N.A104   ---    break,non-stack,ss-non-loop
+ 267  U . N.U105   ---    break,non-stack,ss-non-loop
+ 268  G . N.G106   ---    break,non-stack,ss-non-loop
+ 269  U . N.U107   ---    break,non-stack,ss-non-loop
+ 270  G . N.G108   ---    break,non-stack,ss-non-loop
+ 271  G . N.G109   ---    break,non-stack,ss-non-loop
+ 272  G . N.G110   ---    break,non-stack,ss-non-loop
+ 273  A . N.A111   ---    break,non-stack,ss-non-loop
+ 274  A . N.A112   ---    break,non-stack,ss-non-loop
+ 275  A . N.A113   ---    break,non-stack,ss-non-loop
+ 276  C . N.C114   ---    break,non-stack,ss-non-loop
+ 277  U . N.U115   ---    break,non-stack,ss-non-loop
+ 278  C . N.C116   ---    break,non-stack,ss-non-loop
+ 279  G . N.G117   ---    break,non-stack,ss-non-loop
+ 280  A . N.A118   ---    break,non-stack,ss-non-loop
+ 281  C . N.C119   ---    break,non-stack,ss-non-loop
+ 282  U . N.U120   ---    break,non-stack,ss-non-loop
+ 283  G . N.G121   ---    break,non-stack,ss-non-loop
+ 284  C . N.C122   ---    break,non-stack,ss-non-loop
+ 285  A . N.A123   ---    break,non-stack,ss-non-loop
+ 286  U . N.U124   ---    break,non-stack,ss-non-loop
+ 287  A . N.A125   ---    break,non-stack,ss-non-loop
+ 288  A . N.A126   ---    break,non-stack,ss-non-loop
+ 289  U . N.U127   ---    break,non-stack,ss-non-loop
+ 290  U . N.U128   ---    break,non-stack,ss-non-loop
+ 291  U . N.U129   ---    break,non-stack,ss-non-loop
+ 292  G . N.G130   ---    break,non-stack,ss-non-loop
+ 293  U . N.U131   ---    break,non-stack,ss-non-loop
+ 294  G . N.G132   ---    break,non-stack,ss-non-loop
+ 295  G . N.G133   ---    break,non-stack,ss-non-loop
+ 296  U . N.U134   ---    break,non-stack,ss-non-loop
+ 297  A . N.A135   ---    break,non-stack,ss-non-loop
+ 298  G . N.G136   ---    break,non-stack,ss-non-loop
+ 299  U . N.U137   ---    break,non-stack,ss-non-loop
+ 300  G . N.G138   ---    break,non-stack,ss-non-loop
+ 301  G . N.G139   ---    break,non-stack,ss-non-loop
+ 302  G . N.G140   ---    break,non-stack,ss-non-loop
+ 303  G . N.G141   ---    break,non-stack,ss-non-loop
+ 304  G . N.G142   ---    break,non-stack,ss-non-loop
+ 305  A . N.A143   ---    break,non-stack,ss-non-loop
+ 306  C . N.C144   ---    break,non-stack,ss-non-loop
+ 307  U . N.U145   ---    break,non-stack,ss-non-loop
+ 308  G . N.G146   ---    break,non-stack,ss-non-loop
+ 309  C . N.C147   ---    break,non-stack,ss-non-loop
+ 310  G . N.G148   ---    break,non-stack,ss-non-loop
+ 311  U . N.U149   ---    break,non-stack,ss-non-loop
+ 312  U . N.U150   ---    break,non-stack,ss-non-loop
+ 313  C . N.C151   ---    break,non-stack,ss-non-loop
+ 314  G . N.G152   ---    break,non-stack,ss-non-loop
+ 315  C . N.C153   ---    break,non-stack,ss-non-loop
+ 316  G . N.G154   ---    break,non-stack,ss-non-loop
+ 317  C . N.C155   ---    break,non-stack,ss-non-loop
+ 318  U . N.U156   ---    break,non-stack,ss-non-loop
+ 319  U . N.U157   ---    break,non-stack,ss-non-loop
+ 320  U . N.U158   ---    break,non-stack,ss-non-loop
+ 321  C . N.C159   ---    break,non-stack,ss-non-loop
+ 322  C . N.C160   ---    break,non-stack,ss-non-loop
+ 323  C . N.C161   ---    break,non-stack,ss-non-loop
+ 324  C . N.C162   ---    break,non-stack,ss-non-loop
+ 325  U . N.U163   ---    break,non-stack,ss-non-loop
+ 326  G . N.G164   ---    non-stack,ss-non-loop
+ 327  G . D.DG2    ---    break,non-stack,ss-non-loop
+ 328  G . D.DG3    ---    break,non-stack,ss-non-loop
+ 329  T . D.DT4    ---    break,non-stack,ss-non-loop
+ 330  A . D.DA5    ---    break,non-stack,ss-non-loop
+ 331  A . D.DA6    ---    break,non-stack,ss-non-loop
+ 332  G . D.DG7    ---    break,non-stack,ss-non-loop
+ 333  T . D.DT8    ---    break,non-stack,ss-non-loop
+ 334  A . D.DA9    ---    non-stack,ss-non-loop
+ 335  G . M.DG2    ---    break,non-stack,ss-non-loop
+ 336  G . M.DG3    ---    break,non-stack,ss-non-loop
+ 337  T . M.DT4    ---    break,non-stack,ss-non-loop
+ 338  A . M.DA5    ---    break,non-stack,ss-non-loop
+ 339  A . M.DA6    ---    break,non-stack,ss-non-loop
+ 340  G . M.DG7    ---    break,non-stack,ss-non-loop
+ 341  T . M.DT8    ---    break,non-stack,ss-non-loop
+ 342  A . M.DA9    ---    non-stack,ss-non-loop
+
+****************************************************************************
+List of 4 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names

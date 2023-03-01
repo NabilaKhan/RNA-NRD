@@ -1,0 +1,9 @@
+Cluster_ID	Representative	Redundant_cluster	Organism	Macromolecule_name	Family_name
+2	6V3B_AN1	3J3V_A, 6O8Z_A, 6YHS_1, 6YSI_1, 6V3B_AN1, 6HA8_A	Bacillus_subtilis, Enterococcus_faecalis, Acinetobacter_baumannii	23S_ribosomal_RNA, ribosome_RNA_23S, 23S_rRNA, 23s_ribosomal_RNA	Bacterial large subunit ribosomal RNA', 'Bacterial large subunit ribosomal RNA
+3	6YSI_5	6YHS_5, 6YSI_5, 6V3B_B	Acinetobacter_baumannii	5S_ribosomal_RNA, 5s_ribosomal_RNA	5S ribosomal RNA
+4	6V3B_sN1	6O8Z_a, 6HA8_a, 6V3B_sN1	Enterococcus_faecalis, Bacillus_subtilis, Acinetobacter_baumannii	16S_rRNA, 16s_Ribosomal_RNA	Bacterial small subunit ribosomal RNA', 'Bacterial small subunit ribosomal RNA
+5	6YSI_6	6YHS_6, 6YSI_6	Acinetobacter_baumannii	E-site_tRNA	tRNA
+6	6YSI_8	6YSI_8, 6YHS_8	Acinetobacter_baumannii	E-site_tRNA	tRNA
+7	3PDR_A	3PDR_A, 3PDR_X	Bacillus_subtilis	M-box_Riboswitch_RNA	M-box riboswitch (ykoK leader)', 'M-box riboswitch (ykoK leader)', 'M-box riboswitch (ykoK leader)', 'M-box riboswitch (ykoK leader)', 'M-box riboswitch (ykoK leader)', 'M-box riboswitch (ykoK leader)
+8	6HA8_B	3J3V_B, 6HA8_B	Bacillus_subtilis	ribosome_RNA_5S, 5S_rRNA	5S ribosomal RNA
+9	6O8Z_B	6O8Z_B	Enterococcus_faecalis	5S_rRNA	5S ribosomal RNA

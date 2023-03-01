@@ -1,0 +1,2 @@
+PDB_ID	Chain_ID	Entity_Polymer_Type	Source_Organism	Chain_Length	Resolution	#_RNA_Entities	Release_Date	Experimental_Method	Macromolecule_Name	Family_name	Num_res_with_coor	Num_base_pairs	Sequence
+6HA8	x	RNA	Escherichia_coli	75	3.5	5	2018-08-29	ELECTRON_MICROSCOPY	P-tRNA(Leu)	other	75	0	GCCGAGGUGGUGGAAUUGGUAGACACGCUACCUUGAGGUGGUAGUUUACGGGUUCAAGUCCCGUCCUCGGUACCA

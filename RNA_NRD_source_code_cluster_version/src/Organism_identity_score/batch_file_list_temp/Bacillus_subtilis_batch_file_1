@@ -1,0 +1,7 @@
+#!/bin/bash
+#SBATCH --output=Bacillus_subtilis_batch_file_output_1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16G
+
+
+python3 ../../Generate_Identity_Score.py Bacillus_subtilis Bacillus_subtilis_RNA_chain_list_1 1 100 
