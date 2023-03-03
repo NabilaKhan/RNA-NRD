@@ -36,7 +36,7 @@ os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, reques
   
 #### Generate RNA-NRD Dataset  
   
-*** Run command: python3 Run.py [-o 'Output/Nonredundat_datalist'] [-r 4] [-a 80] [-fr 50]  
+<b><i> Run command: <\i><\b> python3 Run.py [-o 'Output/Nonredundat_datalist'] [-r 4] [-a 80] [-fr 50]  
 *** Help command: python3 Run5_NR_Dataset.py -h  
 *** Optional arguments: 
 ```
@@ -58,7 +58,7 @@ RNA chains have been collected from PDB on February 23, 2022 and provided inside
 *** Steps:
 1. Download RNA chains from [PDB](https://www.rcsb.org/) in csv format. Go to [Homepage](https://www.rcsb.org/) -> [“Nucleic Acid Containing Structures”](https://www.rcsb.org/search?request=%7B%22query%22%3A%7B%22type%22%3A%22group%22%2C%22nodes%22%3A%5B%7B%22type%22%3A%22group%22%2C%22nodes%22%3A%5B%7B%22type%22%3A%22group%22%2C%22nodes%22%3A%5B%7B%22type%22%3A%22terminal%22%2C%22service%22%3A%22text%22%2C%22parameters%22%3A%7B%22attribute%22%3A%22entity_poly.rcsb_entity_polymer_type%22%2C%22negation%22%3Afalse%2C%22operator%22%3A%22exact_match%22%2C%22value%22%3A%22DNA%22%7D%7D%2C%7B%22type%22%3A%22terminal%22%2C%22service%22%3A%22text%22%2C%22parameters%22%3A%7B%22attribute%22%3A%22entity_poly.rcsb_entity_polymer_type%22%2C%22negation%22%3Afalse%2C%22operator%22%3A%22exact_match%22%2C%22value%22%3A%22RNA%22%7D%7D%2C%7B%22type%22%3A%22terminal%22%2C%22service%22%3A%22text%22%2C%22parameters%22%3A%7B%22attribute%22%3A%22entity_poly.rcsb_entity_polymer_type%22%2C%22negation%22%3Afalse%2C%22operator%22%3A%22exact_match%22%2C%22value%22%3A%22NA-hybrid%22%7D%7D%5D%2C%22logical_operator%22%3A%22or%22%7D%5D%2C%22logical_operator%22%3A%22and%22%2C%22label%22%3A%22text%22%7D%5D%2C%22logical_operator%22%3A%22and%22%7D%2C%22return_type%22%3A%22entry%22%2C%22request_options%22%3A%7B%22paginate%22%3A%7B%22start%22%3A0%2C%22rows%22%3A25%7D%2C%22results_content_type%22%3A%5B%22experimental%22%5D%2C%22sort%22%3A%5B%7B%22sort_by%22%3A%22score%22%2C%22direction%22%3A%22desc%22%7D%5D%2C%22scoring_strategy%22%3A%22combined%22%7D%2C%22request_info%22%3A%7B%22query_id%22%3A%22b58e075a4d9a0a80000fc64c88aaab46%22%7D%7D) -> “Tabular Report” -> “Create CustomReport” -> select attributes -> “Run Report”.
 2. Select these 12 attributes: Experimental Method, Release Date, PDB ID, Number of Distinct RNA Entities, Resolution (Å), Sequence, Entity Polymer Type, Polymer Entity Sequence Length, Source Organism, Macromolecule Name, Chain ID (Asym ID), Entry Id (Polymer Entity Identifier).
-3. Convertcsv files to txt file format and merge them. See the example code below and change the file names accordingly:
+3. Convert .csv files to .txt file format and merge them. See the example code below and change the file names accordingly:
 		
 		****************************************************************************************
 		csvformat -T rcsb_pdb_custom_report_0001-2500.csv > rcsb_pdb_custom_report_0001-2500.txt
