@@ -71,7 +71,8 @@ os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, reques
   
 *** Run command: python3 Run.py [-o 'Output/Nonredundat_datalist'] [-r 4] [-a 80] [-fr 50]  
 *** Help command: python3 Run5_NR_Dataset.py -h  
-*** Optional arguments:  
+*** Optional arguments: 
+```
   -h, --help  show this help message and exit  
   -i [I]      Input file name containing RNA chains. Default: 'Data.txt'.  
   -o1 [O1]    Output file name with organism division. Default: 'RNA-NRD_Dataset'.  
@@ -79,12 +80,13 @@ os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, reques
   -t [T]      Provide sequence identity threshold. Default: 80.  
   -r [R]      Provide RMSD threshold. Default: 4.  
   -a [A]      Provide structural alignment ratio threshold. Default: 80.  
-  -org [ORG]  Generate RNA-NRD dataset without organism based division. Default: True.  
+  -org [ORG]  Generate RNA-NRD dataset without organism based division. Default: True. 
+```
 *** Output: Generates final nonredundant detaset output file inside user defined location (Default: 'Output/Nonredundat_datalist')  
 
             
 ### Important Notes
-*** Please make sure the file 'All_Organism_list' is inside the folder 'Organism_list'. It contains list of all organisms currently present in PDB. In case the input file has any new organisms, then the new organisms will be added in the file 'All_Organism_list'.                
+*** Please make sure the file 'All_Organism_list' is inside the folder 'Organism_list'. It contains list of all organisms currently present in PDB.
 
 
 ### Terms  
