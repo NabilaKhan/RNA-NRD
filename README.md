@@ -1,40 +1,38 @@
-# RNA-NRD 
+# RNA-NRD: a Non-redundant RNA Structural Dataset for Benchmarking and Functional Analysis
 
-## RNA-NRD: a Non-redundant RNA Structural Dataset for Benchmarking and Functional Analys  
-
-### Install Instructions 
+## Install Instructions 
 RNA-NRD source code is implemented using Python 3.8.10 and can be executed in 64-bit Linux Machine. It uses the tool STAR3D for 3D structure alignment which is provided here. STAR3D is implemented by using java 1.7 and requires JRE to run.
 
-#### Install JRE:  
+### Install JRE:  
 ```
 Debian/Ubuntu: apt install default-jre
 Fedora/CentOS: dnf install default-jre 
 ```
-#### Install python3:
+### Install python3:
 ```
 Debian/Ubuntu: apt install python3.8  
 Fedora/CentOS: dnf install python3.8 
 ```
-#### Install pip3: 
+### Install pip3: 
 ```
 Debian/Ubuntu: apt install python3-pip  
 Fedora/CentOS: dnf install python3-pip  
 ```
-#### Install required Python libraries:  
+### Install required Python libraries:  
 It is required to install several python libraries to run RNA-NRD pipeline. These libraries are included in the [requirements.txt](requirements.txt) file. To install all required python libraries, please navigate to the RNA-NRD home directory in the terminal and execute the following command.
 
 ```
 pip install -r requirements.txt
 ``` 
 
-#### Python packages that should already exist:  
+### Python packages that should already exist:  
 os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, requests  
   
 *** If any of the above mentioed package doesn't exist, then please install with command 'pip3 install package-name' ***
 
-### Run Instructions
+## Run Instructions
   
-#### Generate RNA-NRD Dataset  
+### Generate RNA-NRD Dataset  
   
 **_Run command:_** python3 Run.py [-o 'Output/Nonredundat_datalist'] [-r 4] [-a 80] [-fr 50]  
 *** Help command: python3 Run5_NR_Dataset.py -h  
@@ -52,7 +50,7 @@ os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, reques
 *** Output: Generates final nonredundant detaset output file inside user defined location (Default: 'Output/Nonredundat_datalist')  
 
 
-#### Collect RNA chains from PDB (optional)
+### Collect RNA chains from PDB (optional)
 RNA chains have been collected from PDB on February 23, 2022 and provided inside the "Data" folder under the name "Merged_data.txt". But as "Merged_data.txt" contains a huge number of RNa chains, it will take long time to run the pipeline for this input. Smaller samples of input data (Data.txt, Data_2.txt, Data_3.txt) has been provide inside the "Data" folder which contain small amount of RNA chains and can be run within few minutes. 
 
 *** Steps:
@@ -74,7 +72,7 @@ RNA chains have been collected from PDB on February 23, 2022 and provided inside
 		****************************************************************************************
 		
 
-#### Collect RNA chain family information from Rfam website (optional)  
+### Collect RNA chain family information from Rfam website (optional)  
 RNA chain family information has been collected from Rfam website on January 23, 2023 and provided inside the folder "Rfam_family". In order to collect most recent Rfam family information, please complete the following steps:
 
 *** Requirement: Install chromedrive and update the chromedrive path in the code Rfam_parser.py on line 26   
