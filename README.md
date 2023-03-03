@@ -28,7 +28,7 @@ pip install -r requirements.txt
 #### Python packages that should already exist:  
 os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, requests  
   
-*** If any of the above mentioed package doesn't exist, then please install with command 'pip3 install package-name' ***
+*** If any of the above mentioned package doesn't exist, then please install with command 'pip3 install package-name' ***
 
 ## Run Instructions
   
