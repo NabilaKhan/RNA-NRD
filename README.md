@@ -1,7 +1,7 @@
 # RNA-NRD: a Non-redundant RNA Structural Dataset for Benchmarking and Functional Analysis
 
 ## Install Instructions 
-RNA-NRD source code is implemented using Python 3.8.10 and can be executed in 64-bit Linux Machine. It uses the tool STAR3D for 3D structure alignment which is provided here. STAR3D is implemented by using java 1.7 and requires JRE to run.
+RNA-NRD source code is implemented using Python 3.8.10 and can be executed in 64-bit Linux machine. It uses the tool STAR3D for 3D structure alignment which is provided here. STAR3D is implemented by using java 1.7 and requires JRE to run.
 
 #### Install JRE:  
 ```
