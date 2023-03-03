@@ -4,7 +4,12 @@
 RNA-NRD is a non-redundant dataset for RNA 3D structures.The significance of RNA functions and their role in evolution and disease control have remarkably increased the research scope in the field of RNA science. Though the availability of RNA structure data in PBD has been growing tremendously, maintaining their quality and integrity has become the greater challenge. Since the data available in PDB are results of different independent research, they might contain redundancy. the possibility of having redundant structure is very high. As a result, there remains a possibility of data bias for both protein and RNA chains. Quite a few studies have been conducted to remove the redundancy of protein structures by introducing high-quality representatives. However, the amount of research done to remove the redundancy of RNA structures is still very low. To remove RNA chain redundancy in PDB, we have introduced RNA-NRD, a non-redundant dataset of RNA chains based on sequential and 3D structural similarity. We compared RNA-NRD with the existing non-redundant dataset RS-RNA and showed that it has better-formed clusters of redundant RNA chains with lower average RMSD and higher average PSI, thus improving the overall quality of the dataset.
 
 ### Install Instructions 
-RNA-NRD source code is implemented using Python 3.8.10 and can be executed in 64-bit Linux Machine.  
+RNA-NRD source code is implemented using Python 3.8.10 and can be executed in 64-bit Linux Machine. It uses the tool STAR3D for 3D structure alignment which is provided here. STAR3D is implemented by using java 1.7 and requires JRE to run.
+
+```
+*** Install JRE:  
+Debian/Ubuntu: apt install default-jre
+Fedora/CentOS: dnf install default-jre 
 
 *** Install python3:  
 Debian/Ubuntu: apt install python3.8  
@@ -13,6 +18,7 @@ Fedora/CentOS: dnf install python3.8
 *** Install pip3:   
 Debian/Ubuntu: apt install python3-pip  
 Fedora/CentOS: dnf install python3-pip  
+```
 
 *** Install Following python packages:  
 1. biopython (>=1.79): pip3 install biopython==1.79  
