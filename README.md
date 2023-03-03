@@ -36,7 +36,7 @@ os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, reques
   
 #### Generate RNA-NRD Dataset  
   
-#####_Run command:_##### python3 Run.py [-o 'Output/Nonredundat_datalist'] [-r 4] [-a 80] [-fr 50]  
+_Run command:_ python3 Run.py [-o 'Output/Nonredundat_datalist'] [-r 4] [-a 80] [-fr 50]  
 *** Help command: python3 Run5_NR_Dataset.py -h  
 *** Optional arguments: 
 ```
