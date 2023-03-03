@@ -20,18 +20,17 @@ Debian/Ubuntu: apt install python3-pip
 Fedora/CentOS: dnf install python3-pip  
 ```
 
-*** Install Following python packages:  
-1. biopython (>=1.79): pip3 install biopython==1.79  
-2. matplotlib (>=3.5.0): pip3 install matplotlib==3.5.0  
-3. networkx (>=2.6.3): pip3 install networkx==2.6.3  
-4. numpy (>=1.22.3): pip3 install numpy==1.22.3  
-5. python-dateutil (>=2.8.2): pip3 install python-dateutil==2.8.2  
-6. wget (>=3.2): pip3 install wget==3.2  
+*** Install required Python libraries:  
+It is required to install several python libraries to run RNA-NRD pipeline. These libraries are included in the [requirements.txt](requirements.txt) file. To install all required python libraries, please navigate to the RNA-NRD home directory in the terminal and execute the following command.
+
+```
+pip install -r requirements.txt
+``` 
 
 *** Python packages that should already exist:  
 os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, requests  
   
-*** If any of the above mentioed package doesn't exist, then please install with command 'pip install package-name'
+*** If any of the above mentioed package doesn't exist, then please install with command 'pip3 install package-name'
 
 
 
