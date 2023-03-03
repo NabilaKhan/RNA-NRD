@@ -6,21 +6,26 @@ RNA-NRD is a non-redundant dataset for RNA 3D structures.The significance of RNA
 ### Install Instructions 
 RNA-NRD source code is implemented using Python 3.8.10 and can be executed in 64-bit Linux Machine. It uses the tool STAR3D for 3D structure alignment which is provided here. STAR3D is implemented by using java 1.7 and requires JRE to run.
 
+
+#### Install JRE:  
 ```
-*** Install JRE:  
 Debian/Ubuntu: apt install default-jre
 Fedora/CentOS: dnf install default-jre 
+```
 
-*** Install python3:  
+#### Install python3:
+```
 Debian/Ubuntu: apt install python3.8  
-Fedora/CentOS: dnf install python3.8  
+Fedora/CentOS: dnf install python3.8 
+```
 
-*** Install pip3:   
+#### Install pip3: 
+```
 Debian/Ubuntu: apt install python3-pip  
 Fedora/CentOS: dnf install python3-pip  
 ```
 
-*** Install required Python libraries:  
+#### Install required Python libraries:  
 It is required to install several python libraries to run RNA-NRD pipeline. These libraries are included in the [requirements.txt](requirements.txt) file. To install all required python libraries, please navigate to the RNA-NRD home directory in the terminal and execute the following command.
 
 ```
