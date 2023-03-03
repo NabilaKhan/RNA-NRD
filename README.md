@@ -34,26 +34,7 @@ os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, reques
 
 
 
-### Collect RNA chains from PDB
-*** Steps:
-1. Download RNA chains from PDB in csv format. Go to homepage button -> “^[0-9] Nucleic Acid Containing Structures” -> “Tabular Report” -> “Create CustomReport” -> select attributes -> “Run Report”.
-2. Select these 12 attributes: Experimental Method, Release Date, PDB ID, Number of Distinct RNA Entities, Resolution (Å), Sequence, Entity Polymer Type, Polymer Entity Sequence Length, Source Organism, Macromolecule Name, Chain ID (Asym ID), Entry Id (Polymer Entity Identifier).
-3. Convertcsv files to txt file format and merge them. See the example code below and change the file names accordingly:
-		
-		****************************************************************************************
-		csvformat -T rcsb_pdb_custom_report_0001-2500.csv > rcsb_pdb_custom_report_0001-2500.txt
-		sed -i 's/\ /_/g' rcsb_pdb_custom_report_0001-2500.txt
 
-		csvformat -T rcsb_pdb_custom_report_2501-5000.csv > rcsb_pdb_custom_report_2501-5000.txt
-		sed -i 's/\ /_/g' rcsb_pdb_custom_report_2501-5000.txt
-
-		csvformat -T rcsb_pdb_custom_report_5001-5329.csv > rcsb_pdb_custom_report_5001-5329.txt
-		sed -i 's/\ /_/g' rcsb_pdb_custom_report_5001-5329.txt
-
-		cat *.txt > Data.txt
-		****************************************************************************************
-		
-*** Note: 'Merged_data.txt' already exists inside folder 'Data' which contains all the RNA chains collected from PDB on 03/17/21.
 
 
 
@@ -83,6 +64,31 @@ os, sys, shutil, math, random, subprocess, glob, time, argparse, logging, reques
   -org [ORG]  Generate RNA-NRD dataset without organism based division. Default: True. 
 ```
 *** Output: Generates final nonredundant detaset output file inside user defined location (Default: 'Output/Nonredundat_datalist')  
+
+
+### Collect RNA chains from PDB (optional)
+RNA chains have been collected from PDB on February 23, 2022 and provided inside the "Data" folder under the name "Merged_data.txt". Apart from that, smaller samples of input (Data.txt,Data_2.txt, Data_3.txt) has been provide inside the "Data" folder which contain small amount of RNA chains. 
+
+*** Steps:
+1. Download RNA chains from PDB in csv format. Go to homepage button -> “^[0-9] Nucleic Acid Containing Structures” -> “Tabular Report” -> “Create CustomReport” -> select attributes -> “Run Report”.
+2. Select these 12 attributes: Experimental Method, Release Date, PDB ID, Number of Distinct RNA Entities, Resolution (Å), Sequence, Entity Polymer Type, Polymer Entity Sequence Length, Source Organism, Macromolecule Name, Chain ID (Asym ID), Entry Id (Polymer Entity Identifier).
+3. Convertcsv files to txt file format and merge them. See the example code below and change the file names accordingly:
+		
+		****************************************************************************************
+		csvformat -T rcsb_pdb_custom_report_0001-2500.csv > rcsb_pdb_custom_report_0001-2500.txt
+		sed -i 's/\ /_/g' rcsb_pdb_custom_report_0001-2500.txt
+
+		csvformat -T rcsb_pdb_custom_report_2501-5000.csv > rcsb_pdb_custom_report_2501-5000.txt
+		sed -i 's/\ /_/g' rcsb_pdb_custom_report_2501-5000.txt
+
+		csvformat -T rcsb_pdb_custom_report_5001-5329.csv > rcsb_pdb_custom_report_5001-5329.txt
+		sed -i 's/\ /_/g' rcsb_pdb_custom_report_5001-5329.txt
+
+		cat *.txt > Data.txt
+		****************************************************************************************
+		
+*** Note: 'Merged_data.txt' already exists inside folder 'Data' which contains all the RNA chains collected from PDB on 03/17/21.
+
 
             
 ### Important Notes
